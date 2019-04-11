@@ -46,9 +46,9 @@ def RNN(x,weights,biases):
 
     # reshaping into rows with 3 columns.
     x = tf.reshape(x,[-1,n_input])
-    print(tf.shape(x))
+    print("x shape inside RNN cell:"+str(tf.shape(x)))
     x = tf.split(x,n_input,1)
-    print(tf.shape(x))
+    print("x shape after split  inside RNN cell:"+str(tf.shape(x)))
     rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden),rnn.BasicLSTMCell(n_hidden)])
     outputs, states = rnn.static_rnn(rnn_cell, x, dtype=tf.float32)
     return tf.matmul(outputs[-1], weights['out']) + biases['out']
@@ -70,8 +70,8 @@ if __name__ == '__main__':
     n_hidden = 512
 
 # tf Graph input
-    x = tf.placeholder("float", [None, n_input, 1])
-    y = tf.placeholder("float", [None, vocab_size])
+    x = tf.placeholder("float", shape = ( n_input, 1))
+    y = tf.placeholder("float", shape = ( vocab_size))
 
 # RNN output node weights and biases
     weights = {
@@ -81,12 +81,13 @@ if __name__ == '__main__':
         'out': tf.Variable(tf.random_normal([vocab_size]))
     }
 
+    print("bias shape :"+str(tf.random_normal([vocab_size]).shape))
     pred = RNN(x,weights,biases)
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
     optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(cost)
 
     # Model evaluation
-    correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
+    correct_pred = tf.equal(tf.argmax(pred,0), tf.argmax(y,0))
     accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
 
@@ -106,14 +107,14 @@ if __name__ == '__main__':
            # print("Start:"+str(offset))
             # Words encoded to numbers in batches of n_input
             word_batch_encoded = [dict[training_data[i]] for i in range(offset,offset+n_input)]
-            word_batch_encoded = np.reshape(np.array(word_batch_encoded), [-1, n_input, 1])
-            #print(word_batch_encoded)
+            word_batch_encoded = np.reshape(np.array(word_batch_encoded), [n_input, 1])
+            #print(word_batch_encoded.shape)
             output_word_one_hot = np.zeros((len(dict)),dtype=float)
             #print("Output_word:"+str(training_data[offset+n_input]))
             output_word_one_hot[dict[str(training_data[offset+n_input])]] = 1.0
             #print(output_word_one_hot)
-            output_word_one_hot = np.reshape(output_word_one_hot,[1,-1])
-            #print(output_word_one_hot)
+            #output_word_one_hot = np.reshape(output_word_one_hot,[1,-1])
+            #print(output_word_one_hot.shape)
             _, acc, loss, onehot_pred = session.run([optimizer, accuracy, cost, pred], \
                                                     feed_dict={x: word_batch_encoded, y: output_word_one_hot})
 

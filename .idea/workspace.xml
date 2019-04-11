@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebd2d3b-8cc0-44d7-921e-2735c66ac2ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/ga/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/BSE-BOM532500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StockModels.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DeapLearningModels.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/flavour_source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/flavour_source.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +18,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py">
+        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,9 +68,10 @@
         <option value="$PROJECT_DIR$/src/main/models/rnn/phone_review.txt" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/__init__.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/flavour_source.txt" />
-        <option value="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" />
         <option value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
         <option value="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" />
+        <option value="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" />
+        <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
       </list>
     </option>
   </component>
@@ -113,6 +121,14 @@
               <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="ga" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="rnn" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,11 +137,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554897855621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554982582676" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/models/rnn" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DEAPScheduling">
+  <component name="RunManager" selected="Python.StockRNN">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="DeapLearningModels" />
       <option name="VM_PARAMETERS" />
@@ -208,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDeapGA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StockRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/ga" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StockRNN" />
+        <item itemvalue="Python.TextGenRNN" />
         <item itemvalue="Python.DEAPScheduling" />
         <item itemvalue="Python tests.Doctests in DEAPScheduling" />
         <item itemvalue="Python tests.Doctest cxTwoPointCopy" />
-        <item itemvalue="Python.TestDeapGA" />
-        <item itemvalue="Python.TextGenRNN" />
       </list>
     </recent_temporary>
   </component>
@@ -489,6 +510,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/models/CntntBasedRecommenderTensorFlow.py" />
     <entry file="file://$PROJECT_DIR$/src/main/models/LTSMTensorflow.py" />
@@ -512,16 +536,6 @@
           <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,12 +588,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/BSE-BOM532500.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="80" column="27" lean-forward="true" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
           </folding>
         </state>
       </provider>

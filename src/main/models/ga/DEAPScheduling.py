@@ -37,9 +37,28 @@ dim = (num_head_chefs,num_sous_chef,num_foh,num_waiter,num_shifts,num_days)
 def evalSchedule(individual):
     ind = individual.reshape(dim)
     sum = 0
+
+    # Every shift should have atleast one point
     for i in range(num_shifts):
         for j in range(num_days):
-            sum = sum + numpy.sum(ind[:,:,:,:,num_shifts,num_days])
+            value = numpy.sum(ind[:,:,:,:,i,j])
+            sum = sum + abs(value-1)
+
+
+
+
+    # Not two same persons should work togather more than once.
+    for l in range(6):
+        for m in range(6):
+            sum = sum + abs(numpy.sum(ind[l,m,:,:,:,:]) - 1)
+            sum = sum + abs(numpy.sum(ind[l,:,m,:,:,:]) - 1)
+            sum = sum + abs(numpy.sum(ind[l,:,:,m,:,:]) - 1)
+            sum = sum + abs(numpy.sum(ind[:,l,m,:,:,:]) - 1)
+            sum = sum + abs(numpy.sum(ind[:,l,:,m,:,:]) - 1)
+            sum = sum + abs(numpy.sum(ind[:,:,l,m,:,:]) - 1)
+            
+
+
     return sum,
 
 def feasible(individual):
@@ -80,14 +99,14 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 
 def ga_main():
     random.seed(64)
-    pop = toolbox.population(n=1000)
+    pop = toolbox.population(n=100)
     hof = tools.HallOfFame(1, similar=numpy.array_equal)
     stats = tools.Statistics(lambda ind: ind.fitness.values)
     stats.register("avg", numpy.mean)
     stats.register("std", numpy.std)
     stats.register("min", numpy.min)
     stats.register("max", numpy.max)
-    algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=100, stats=stats,
+    algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=10000, stats=stats,
                         halloffame=hof)
     print("population:"+str(pop))
     print("stats:"+str(stats))
