@@ -1,5 +1,9 @@
 import csv
 import numpy as np
+import tensorflow as tf
+from tensorflow.contrib import rnn
+import random
+import time
 
 
 sourcefile = "BSE-BOM532500.csv"
@@ -13,9 +17,22 @@ negativelow  = 4
 negativeMed  = 5
 negativeHigh = 6
 
-## Window for  which price change is to be predicted.
-predictorInterval = 3
+nInput = 3
+nHidden = 512
 
+## Window for  which price change is to be predicted.
+predictorInterval = 1
+logs_path = '/tmp/tensorflow/rnn_words'
+writer = tf.summary.FileWriter(logs_path)
+
+start_time = time.time()
+def elapsed(sec):
+    if sec<60:
+        return str(sec) + " sec"
+    elif sec<(60*60):
+        return str(sec/60) + " min"
+    else:
+        return str(sec/(60*60)) + " hr"
 
 
 """
@@ -61,17 +78,121 @@ def preparePredictorList(priceList):
                 predictorList.append(negativelow)
         else:
             predictorList.append(negativelow)
+
         count += 1
-    return zip(priceList,predictorPriceList, predictorList)
+    return predictorList
+
+
+
+def RNN(x,weights,biases):
+
+    # reshaping into rows with 3 columns.
+    x = tf.reshape(x,[-1,nInput])
+    print("x shape inside RNN cell:"+str(tf.shape(x)))
+    x = tf.split(x,nInput,1)
+    print("x shape after split  inside RNN cell:"+str(tf.shape(x)))
+    rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(nHidden),rnn.BasicLSTMCell(nHidden)])
+    outputs, states = rnn.static_rnn(rnn_cell, x, dtype=tf.float32)
+    return tf.matmul(outputs[-1], weights['out']) + biases['out']
+
+
+
+def runNetwork():
+    priceList = readData()
+    trainingPercentage = .8
+    testPercentage = 1 - trainingPercentage
+    totalList  = preparePredictorList(priceList)
+    trainingList = totalList[:int(trainingPercentage*len(totalList))]
+    testList     = totalList[int(trainingPercentage*len(totalList)):]
+    print(trainingList)
+    learning_rate  = 0.001
+    training_iters = 10000
+    display_step   = 1000
+    x = tf.placeholder("float", shape = ( nInput, 1))
+    y = tf.placeholder("float", shape = ( 6))
+    weights = {
+        'out': tf.Variable(tf.random_normal([nHidden, 6]))
+    }
+    biases = {
+        'out': tf.Variable(tf.random_normal([6]))
+    }
+
+    pred = RNN(x,weights,biases)
+    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
+    optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(cost)
+
+    # Model evaluation
+    correct_pred = tf.equal(tf.argmax(pred,0), tf.argmax(y,0))
+    accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+
+
+
+    init = tf.global_variables_initializer()
+
+    print("Initialized")
+
+    with tf.Session() as session:
+        session.run(init)
+        step = 0
+        offset = random.randint(0,nInput+1)
+        end_offset = nInput+1
+        acc_total = 0
+        loss_total = 0
+        writer.add_graph(session.graph)
+        print("Optimization started")
+        while(step < training_iters):
+            if(offset> len(trainingList) - end_offset):
+                offset = random.randint(0, nInput+1)
+            offset = random.randint(0, nInput+1)
+            inputSequence = [trainingList[i] for i in range(offset,offset+nInput)]
+            inputSequence = np.reshape(np.array(inputSequence),(nInput,1))
+            outputElement = np.zeros(6,dtype=float)
+            outputElement[trainingList[offset+nInput] - 1] = 1.0
+            _, acc, loss, onehot_pred = session.run([optimizer, accuracy, cost, pred], \
+                                                    feed_dict={x: inputSequence, y: outputElement})
+            loss_total += loss
+            acc_total += acc
+            if (step+1) % display_step == 0:
+                print("Iter= " + str(step+1) + ", Average Loss= " + \
+                      "{:.6f}".format(loss_total/display_step) + ", Average Accuracy= " + \
+                      "{:.2f}%".format(100*acc_total/display_step))
+                acc_total = 0
+                loss_total = 0
+                symbols_in = [trainingList[i] for i in range(offset, offset + nInput)]
+                symbols_out = trainingList[offset + nInput]
+                symbols_out_pred = int(tf.argmax(onehot_pred, 1).eval()) + 1
+                print("%s - [%s] vs [%s]" % (symbols_in,symbols_out,symbols_out_pred))
+            step = step + 1
+            offset = offset + nInput + 1
+        print("Optimization Finished!")
+        print("Elapsed time: ", elapsed(time.time() - start_time))
+        print("Run on command line.")
+        print("\ttensorboard --logdir=%s" % (logs_path))
+        print("Point your web browser to: http://localhost:6006/")
+
+
+        print("Testing")
+        testNumber = 0
+        correctCount = 0
+        for i in range(len(testList)):
+            if(testNumber+nInput < len(testList)):
+                testSequeunce   = [testList[i] for i in range(testNumber,testNumber+nInput)]
+                testSequeunce   = testSequeunce.reshape((nInput,1))
+                correctOutput   = testList[testNumber+nInput]
+                predictedOutputOnehot =  session.run(pred, feed_dict={x: testSequeunce})
+                predictedOutput        = int(tf.argmax(predictedOutputOnehot, 1).eval())+1
+                print("Predicted:"+str(predictedOutput)+" | Correct :"+str(correctOutput))
+                testNumber += 1
+                if predictedOutput == correctOutput:
+                    correctCount += 1
+        print("Test Accuracy:"+ str(correctCount/testNumber))
+
 
 
 
 
 if __name__ == '__main__':
-    priceList = readData()
-    predictorbatches = preparePredictorList(priceList)
-    for tuple in preparePredictorList(priceList):
-        print(tuple)
+    runNetwork()
 
 
 

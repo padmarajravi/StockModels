@@ -153,14 +153,15 @@ if __name__ == '__main__':
             try:
                 symbols_in_keys = [dict[str(words[i])] for i in range(len(words))]
                 for i in range(32):
-                    keys = np.reshape(np.array(symbols_in_keys), [-1, n_input, 1])
+                    keys = np.reshape(np.array(symbols_in_keys), [n_input, 1])
                     onehot_pred = session.run(pred, feed_dict={x: keys})
                     onehot_pred_index = int(tf.argmax(onehot_pred, 1).eval())
                     sentence = "%s %s" % (sentence,revdict[onehot_pred_index])
                     symbols_in_keys = symbols_in_keys[1:]
                     symbols_in_keys.append(onehot_pred_index)
                 print(sentence)
-            except:
+            except Exception as e:
+                print(e)
                 print("Word not in dictionary")
 
 
