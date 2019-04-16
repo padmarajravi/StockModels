@@ -54,6 +54,37 @@ def readData():
     return prices
 
 
+def getClassPrecisionAndRecall(predictions):
+
+    # Will store class id , total number of classes and correct prediction
+    countDict = {}
+    recallDict = {}
+
+    # Function to add values to thekey if it already exists , else create values
+    def getOrCreate(key,origCount,correctCount,predictedCount):
+        print("Trying to insert key "+str(key)+" in Count dict:"+str(countDict))
+        if key in countDict.keys():
+            currentEntry = countDict[key]
+            countDict[key] = (currentEntry[0]+origCount,currentEntry[1]+correctCount,currentEntry[2]+predictedOutput)
+        else :
+            countDict[key] = (origCount,correctCount,predictedCount)
+
+
+    for pair in predictions:
+        originalOutput  = pair[1]
+        predictedOutput = pair[0]
+        # If predicted and actual are same , add one to orignal count , correct count and predicted class count
+        if originalOutput == predictedOutput:
+            getOrCreate(originalOutput,1,1,1)
+        else :
+            # Else add 1 to original class count , and zero to correct count and predicted class count. Also add 1 to [redicted class count of relavant class
+            getOrCreate(originalOutput,1,0,0)
+            getOrCreate(predictedOutput,0,0,1)
+
+    return countDict
+
+
+
 def preparePredictorList(priceList):
     predictorList = []
     predictorPriceList = []
@@ -106,7 +137,7 @@ def runNetwork():
     testList     = totalList[int(trainingPercentage*len(totalList)):]
     print(trainingList)
     learning_rate  = 0.001
-    training_iters = 10000
+    training_iters = 1000
     display_step   = 1000
     x = tf.placeholder("float", shape = ( nInput, 1))
     y = tf.placeholder("float", shape = ( 6))
@@ -171,21 +202,32 @@ def runNetwork():
         print("Point your web browser to: http://localhost:6006/")
 
 
-        print("Testing")
+        print("Testing for "+str(len(testList)))
         testNumber = 0
-        correctCount = 0
+        testPredictions = []
         for i in range(len(testList)):
             if(testNumber+nInput < len(testList)):
                 testSequeunce   = [testList[i] for i in range(testNumber,testNumber+nInput)]
-                testSequeunce   = testSequeunce.reshape((nInput,1))
+                testSequeunce   = np.array(testSequeunce).reshape((nInput,1))
                 correctOutput   = testList[testNumber+nInput]
                 predictedOutputOnehot =  session.run(pred, feed_dict={x: testSequeunce})
                 predictedOutput        = int(tf.argmax(predictedOutputOnehot, 1).eval())+1
                 print("Predicted:"+str(predictedOutput)+" | Correct :"+str(correctOutput))
+                testPredictions.append((int(predictedOutput),int(correctOutput)))
                 testNumber += 1
-                if predictedOutput == correctOutput:
-                    correctCount += 1
-        print("Test Accuracy:"+ str(correctCount/testNumber))
+
+
+        countDict = getClassPrecisionAndRecall(testPredictions)
+        for key in countDict.keys():
+            entry     = countDict[key]
+            precision = float(entry[1]/entry[0])
+            recall    = float(entry[1]/entry[2])
+            print("For class:"+str(key)+" Precision = "+ str(precision)+" Recall"+str(recall))
+
+
+
+
+
 
 
 
