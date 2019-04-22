@@ -159,6 +159,12 @@ def RNN(x,weights,biases):
     outputs, states = rnn.static_rnn(rnn_cell, x, dtype=tf.float32)
     return tf.matmul(outputs[-1], weights['out']) + biases['out']
 
+def getOneHot(output):
+    result = np.zeros(outputSize,dtype=float)
+    result[output-1 ] = 1.0
+    return result
+
+
 
 
 def runNetwork():
@@ -208,8 +214,7 @@ def runNetwork():
                 offset = random.randint(0, nInput+1)
             inputSequence = [trainingList[i][0] for i in range(offset,offset+nInput)]
             inputSequence = np.reshape(np.array(inputSequence),(nInput,1))
-            outputElement = np.zeros(outputSize,dtype=float)
-            outputElement[trainingList[offset+nInput][1] - 1] = 1.0
+            outputElement = getOneHot(trainingList[offset+nInput][1])
             _, acc, loss, onehot_pred = session.run([optimizer, accuracy, cost, pred], \
                                                     feed_dict={x: inputSequence, y: outputElement})
             loss_total += loss

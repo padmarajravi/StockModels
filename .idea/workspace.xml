@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebd2d3b-8cc0-44d7-921e-2735c66ac2ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/BSE-BOM500520.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/StockRNNTestUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/model/model.ckpt.meta" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,23 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNNTestUtil.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="192">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#1#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="2107">
+              <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +74,9 @@
         <option value="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNNTestUtil.py" />
-        <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
+        <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py" />
       </list>
     </option>
   </component>
@@ -133,7 +134,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555917448004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555933659646" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -156,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.StockRNNTestUtil">
+  <component name="RunManager" selected="Python.StockRNNKerasTf">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="DeapLearningModels" />
       <option name="VM_PARAMETERS" />
@@ -246,6 +247,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="StockRNNKerasTf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeapLearningModels" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="StockRNNTestUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,24 +329,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in DEAPScheduling" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="DeapLearningModels" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/ga" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -405,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.StockRNNTestUtil" />
+        <item itemvalue="Python.StockRNNKerasTf" />
         <item itemvalue="Python.StockRNN" />
+        <item itemvalue="Python.StockRNNTestUtil" />
         <item itemvalue="Python.TextGenRNN" />
         <item itemvalue="Python.DEAPScheduling" />
-        <item itemvalue="Python tests.Doctests in DEAPScheduling" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +475,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,12 +484,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3306189" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -623,13 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNN.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1815">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -643,10 +644,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="2107">
+          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
