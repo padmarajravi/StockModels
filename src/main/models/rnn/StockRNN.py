@@ -6,7 +6,7 @@ import random
 import time
 
 
-sourcefile = "BSE-BOM532500.csv"
+sourcefile = "data/BSE-BOM532500.csv"
 High = 5
 Med  = 3
 Low  = 0
@@ -19,27 +19,28 @@ negativeMed  = 5
 neutral      = 4
 
 # Outputs
-BUY          = 1
-SELL         = 2
-HOLD         = 3
+HOLD         = 0
+BUY          = 2
+SELL         = 1
 
 
 
-outputSize   = 3
 
-nInput = 4
+outputSize   = 2
+
+nInput  = 6
 nHidden = 512
 
 
 learning_rate  = 0.001
-training_iters = 50000
+training_iters = 10000
 display_step   = 1000
 
 ## Window for  which price change is to be predicted.
 predictorInterval = 3
 logs_path = '/tmp/tensorflow/rnn_words'
 writer = tf.summary.FileWriter(logs_path)
-modelSavePath  = "model/model.ckpt"
+modelSavePath  = "model/tf/model.ckpt"
 
 start_time = time.time()
 def elapsed(sec):
@@ -99,6 +100,19 @@ def getClassPrecisionAndRecall(predictions):
     return countDict
 
 
+def displayResults(countDict):
+    for key in countDict.keys():
+        entry = countDict[key]
+        if entry[0] != 0:
+            precision = float(entry[1] / entry[0])
+        else:
+            precision = 0
+        if entry[2] != 0:
+            recall = float(entry[1] / entry[2])
+        else:
+            recall = 0
+        print("For class:" + str(key) + " Precision = " + str(precision) + " Recall " + str(recall))
+
 
 def preparePredictorList(priceList):
     predictorList = []
@@ -119,6 +133,9 @@ def preparePredictorList(priceList):
             predictorList.append((neutral,HOLD))
 
         count += 1
+
+    print("priceList length:"+str(len(priceList)))
+    print("predictorList length:"+str(len(predictorList)))
     return predictorList
 
 
@@ -138,12 +155,9 @@ def getInputVariable(priceChange):
 
 
 def getOutputVariable(priceChange):
-    result = 0
-    if priceChange > 1.0:
-        result = BUY
-    elif priceChange < -1.0:
+    if priceChange < 1.0:
         result = SELL
-    else :
+    else:
         result = HOLD
     return result
 
@@ -161,7 +175,7 @@ def RNN(x,weights,biases):
 
 def getOneHot(output):
     result = np.zeros(outputSize,dtype=float)
-    result[output-1 ] = 1.0
+    result[output] = 1.0
     return result
 
 
@@ -227,7 +241,7 @@ def runNetwork():
                 loss_total = 0
                 symbols_in = [trainingList[i] for i in range(offset, offset + nInput)]
                 symbols_out = trainingList[offset + nInput]
-                symbols_out_pred = int(tf.argmax(onehot_pred, 1).eval()) + 1
+                symbols_out_pred = int(tf.argmax(onehot_pred, 1).eval())
                 print("%s - [%s] vs [%s]" % (symbols_in,symbols_out,symbols_out_pred))
             step = step + 1
             offset = offset + nInput + 1
@@ -248,23 +262,14 @@ def runNetwork():
                 testSequeunce   = np.array(testSequeunce).reshape((nInput,1))
                 correctOutput   = testList[testNumber+nInput][1]
                 predictedOutputOnehot =  session.run(pred, feed_dict={x: testSequeunce})
-                predictedOutput        = int(tf.argmax(predictedOutputOnehot, 1).eval())+1
+                predictedOutput        = int(tf.argmax(predictedOutputOnehot, 1).eval())
                 testPredictions.append((int(predictedOutput),int(correctOutput)))
                 testNumber += 1
 
         print("Prediction list size:"+str(len(testPredictions)))
         countDict = getClassPrecisionAndRecall(testPredictions)
-        for key in countDict.keys():
-            entry     = countDict[key]
-            if entry[0] != 0:
-                precision = float(entry[1]/entry[0])
-            else:
-                precision = 0
-            if entry[2] != 0 :
-                recall = float(entry[1]/entry[2])
-            else:
-                recall = 0
-            print("For class:"+str(key)+" Precision = "+ str(precision)+" Recall "+str(recall))
+        displayResults(countDict)
+
         print("Saving the model to " + modelSavePath)
         saver     = tf.train.Saver()
         savedPath = saver.save(session, modelSavePath)

@@ -1,0 +1,275 @@
+
+
+
+
+import csv
+import numpy as np
+import tensorflow as tf
+from sklearn import preprocessing
+
+sourcefile = "data/BSE-BOM532500.csv"
+modelSavePath = "models/keras/model"
+High = 5
+Med  = 3
+Low  = 0
+
+# Inputs
+positiveHigh = 8
+positiveMed  = 7
+negativeHigh = 6
+negativeMed  = 5
+neutral      = 4
+
+# Outputs
+HOLD         = 0
+BUY          = 2
+SELL         = 1
+
+predictorInterval = 3
+
+
+
+
+outputSize   = 3
+
+nInput  = 3
+nHidden = 512
+
+testPercentage = .8
+batchSize = 1
+
+
+
+"""
+Read data into a list of close prices
+Prepare predictor list from price list.
+Output is a list ordered in ascending order of time with the 
+most recent day's details being the last element of list
+
+"""
+def readData():
+    prices = []
+    with open(sourcefile) as csvFile:
+        csvReader = csv.reader(csvFile)
+        lineCount=0
+        for line in csvReader:
+            if lineCount > 0:
+                prices.append((float(line[1]),float(line[1]),float(line[3]),float(line[4])))
+            lineCount += 1
+    prices.reverse()
+    return prices
+
+def getOneHot(output):
+    result = np.zeros(outputSize,dtype=float)
+    result[output] = 1.0
+    return result
+
+
+"""
+Prepares a list with each item being the percentage change in close price from previous day ,
+ difference betweeen open and close , difference between high and low , price change between 
+ today and the prediction interval. Change the implementation of this function 
+ to change the input and output of model . Last entry of each item is always treated as output 
+ and rest of them as input
+ 
+"""
+
+def preparePredictorList(priceList):
+    predictorList = []
+    inputOutputList = []
+    previousDayPriceList   = []
+    count = 0
+    prevPrice = float(0)
+    for price in priceList:
+        if count + predictorInterval < len(priceList) and count > 0:
+            previousClosePrice     = priceList[count-1][3]
+            predictorDayClosePrice = priceList[count+predictorInterval][3]
+            currentOpen            = price[0]
+            currentHigh            = price[1]
+            currentLow             = price[2]
+            currentClose           = price[3]
+            currentDayHighLowDiff  = (currentHigh - currentLow)*100/currentLow
+            currentOpenCloseDiff   = (currentClose - currentOpen) * 100 / currentOpen
+            inputOutputList.append(predictorDayClosePrice)
+            previousDayPriceList.append(previousClosePrice)
+            priceChange   = (currentClose - previousClosePrice) * 100 / previousClosePrice
+            predictorPriceChange = (predictorDayClosePrice- currentClose ) * 100 / currentClose
+            predictorList.append((getInputVariable(priceChange),getInputVariable(currentDayHighLowDiff),getInputVariable(currentOpenCloseDiff),getOutputVariable(predictorPriceChange)))
+        else:
+            predictorList.append((neutral,neutral,neutral,HOLD))
+        count += 1
+
+    print("priceList length:"+str(len(priceList)))
+    print("predictorList length:"+str(len(predictorList)))
+    return predictorList
+
+
+"""
+Returns a discreet valuea according to the input percentage change.
+"""
+
+def getInputVariable(priceChange):
+    result = 0
+    if priceChange > 1.0:
+        result = positiveHigh
+    elif priceChange > .5:
+        result = positiveMed
+    elif priceChange > 0.0:
+        result  = neutral
+    elif priceChange < -1.0:
+        result  = negativeHigh
+    elif priceChange < -0.5:
+        result = negativeMed
+    return result
+
+
+"""
+Return the output discreet variable according the change in price during predictor interval
+
+"""
+
+def getOutputVariable(priceChange):
+    if priceChange < -1.0:
+        result = SELL
+    elif priceChange > 1.0 :
+        result = BUY
+    else :
+        result = HOLD
+    return result
+
+
+"""
+Prerpares the X and Y data by take first n sequences as input and next sequence as output . 
+sequence length is configured through nInput variable.
+"""
+
+def prepareData():
+    global trainX, testX, trainY, testY
+    priceList = readData()
+    inputOutputList = preparePredictorList(priceList)
+    noOfInputFeatures = len(inputOutputList[0]) - 1
+    totalX = []
+    totalY = []
+    for i in range(0, len(inputOutputList)):
+        if (i + nInput < len(inputOutputList)):
+            totalX.append(np.array([inputOutputList[j][:noOfInputFeatures] for j in range(i, i + nInput)]))
+            totalY.append(getOneHot(inputOutputList[i + nInput][noOfInputFeatures]))
+    totalX = np.array(totalX)
+    # Normalizing X values
+    forScaling = np.reshape(totalX,(-1,totalX.shape[2]))
+    minMaxScaler = preprocessing.MinMaxScaler()
+    scaledX = minMaxScaler.fit_transform(forScaling)
+    totalX = np.reshape(scaledX,(totalX.shape[0],totalX.shape[1],totalX.shape[2]))
+
+    totalY = np.array(totalY)
+    print("Number of output labels"+str(np.sum(totalY,axis=0)))
+    print("total data set length:"+str(len(totalX)))
+    trainSlice = int(testPercentage * len(totalX))
+    testSlice = int(testPercentage * len(totalY))
+    trainX = totalX[:trainSlice]
+    testX = totalX[testSlice:]
+    trainY = totalY[:trainSlice]
+    testY = totalY[testSlice:]
+    return (trainX,testX,trainY,testY)
+
+
+"""
+Function to return a map with class id , original count of the class , 
+correctly predicted count of class , and correctly predicted count of class.
+"""
+
+def getClassPrecisionAndRecall(predictions):
+
+    # Will store class id , original count , correct count and predicted count of each class
+    countDict = {}
+    # Function to add values to thekey if it already exists , else create values
+    def getOrCreate(key,origCount,correctCount,predictedCount):
+        if key in countDict.keys():
+            currentEntry = countDict[key]
+            countDict[key] = (currentEntry[0]+origCount,currentEntry[1]+correctCount,currentEntry[2]+predictedCount)
+        else :
+            countDict[key] = (origCount,correctCount,predictedCount)
+        print("Inserted key "+str(key)+" in Count dict:"+str(countDict))
+
+
+    for pair in predictions:
+        originalOutput  = pair[1]
+        predictedOutput = pair[0]
+        print("Predicted:"+str(predictedOutput)+" | Correct :"+str(originalOutput))
+        # If predicted and actual are same , add one to orignal count , correct count and predicted class count
+        if originalOutput == predictedOutput:
+            getOrCreate(originalOutput,1,1,1)
+        else :
+            # Else add 1 to original class count , and zero to correct count and predicted class count. Also add 1 to [redicted class count of relavant class
+            getOrCreate(originalOutput,1,0,0)
+            getOrCreate(predictedOutput,0,0,1)
+
+    return countDict
+
+
+"""
+Train the network using LTSM and a dense layer with softmax  
+"""
+
+def trainNetworkLSTM(trainX, trainY):
+    #trainX = np.reshape(trainX, (trainX.shape[0], trainX.shape[1], 1))
+    model = tf.keras.models.Sequential()
+    lstm  = tf.keras.layers.LSTM(4,batch_input_shape=(batchSize,trainX.shape[1],trainX.shape[2] ),stateful= True , return_sequences=True)
+    lstm2 = tf.keras.layers.LSTM(10)
+    dense = tf.keras.layers.Dense(outputSize,activation="softmax")
+    model.add(lstm)
+    model.add(lstm2)
+    model.add(dense)
+    model.compile(loss='categorical_crossentropy', optimizer='adam')
+    print(model.summary())
+    for i in range(1,10):
+        model.fit(trainX, trainY, epochs=1, batch_size=batchSize, verbose=2,shuffle=False)
+        model.reset_states()
+        print("Completed iteration:"+str(i))
+    model.save(modelSavePath)
+
+"""
+Display precision and recall using map created in getClassPrecisionAndRecall function.
+"""
+
+def displayResults(countDict):
+    for key in countDict.keys():
+        entry = countDict[key]
+        if entry[0] != 0:
+            precision = float(entry[1] / entry[0])
+        else:
+            precision = 0
+        if entry[2] != 0:
+            recall = float(entry[1] / entry[2])
+        else:
+            recall = 0
+        print("For class:" + str(key) + " Precision = " + str(precision) + " Recall " + str(recall))
+
+
+"""
+Function to test the model by loading the model , retrive prediction for test set and 
+calculate precision and recall
+"""
+
+def testNetworkLSTM(testX,testY):
+    print("testing for :"+str(len(testX)))
+    model = tf.keras.models.load_model(modelSavePath)
+    #testX = np.reshape(testX, (testX.shape[0],testX.shape[1],1))
+    predictedY = np.argmax(model.predict(testX),axis=1)
+    originalY  = np.argmax(testY,axis=1)
+    print(predictedY)
+    print(originalY)
+    results = getClassPrecisionAndRecall(zip(predictedY,originalY))
+    displayResults(results)
+
+
+
+
+
+if __name__ == '__main__':
+    trainX,testX,trainY,testY = prepareData()
+    #trainNetworkDense(trainX, trainY)
+    #testNetworkDense(trainX,trainY)
+    trainNetworkLSTM(trainX,trainY)
+    testNetworkLSTM(trainX,trainY)
+
