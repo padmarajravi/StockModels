@@ -1,0 +1,1383 @@
+Equipment ID,Inspection Date,PD Average,PD Count,Temperature,Humidity,Loading,Confirm action,Building,Room,Equipment Name,Measurement Position
+115298,10/7/2018 12:00:00 AM,1491.03,21,28.5,81.4,2.1,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top
+115298,15/3/2019 12:00:00 AM,387.39,25,35.1,58.7,2.4,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top
+115299,10/7/2018 12:00:00 AM,1410.18,22,28.5,81.4,2.1,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Bottom
+115299,15/3/2019 12:00:00 AM,617.12,9,35.1,58.7,2.4,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Bottom
+115300,10/7/2018 12:00:00 AM,1605.48,13,28.5,81.4,1.4,1,Unloader 1,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Top
+115300,15/3/2019 12:00:00 AM,517.11,18,35.1,58.7,1.4,1,Unloader 1,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Top
+115301,10/7/2018 12:00:00 AM,1014.96,6,28.5,81.4,1.4,1,Unloader 1,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Bottom
+115301,15/3/2019 12:00:00 AM,174.79,3,35.1,58.7,1.4,1,Unloader 1,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Bottom
+115302,9/7/2018 12:00:00 AM,609.95,13,32.4,63.4,2.4,2,Unloader 2,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top
+115302,13/3/2019 12:00:00 AM,839.7,8,33.2,66.1,2.4,1,Unloader 2,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top
+115304,9/7/2018 12:00:00 AM,600.36,6,32.4,63.4,2.4,1,Unloader 2,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Bottom
+115304,13/3/2019 12:00:00 AM,143.05,5,33.2,66.1,2.4,1,Unloader 2,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Bottom
+115305,9/7/2018 12:00:00 AM,1269.97,7,32.4,63.4,3,1,Unloader 2,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Top
+115305,13/3/2019 12:00:00 AM,135.3,3,33.2,66.1,3,1,Unloader 2,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Top
+115306,9/7/2018 12:00:00 AM,976.36,11,32.4,63.4,3,1,Unloader 2,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Bottom
+115306,13/3/2019 12:00:00 AM,139.45,3,33.2,66.1,3,1,Unloader 2,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Bottom
+115308,11/7/2018 12:00:00 AM,408.09,4,34,56.6,2,1,IMPSA 1,-,Panel 1 - F1 Incoming Cubicle,Top
+115308,11/3/2019 12:00:00 AM,570.07,10,32.5,59.8,2,1,IMPSA 1,-,Panel 1 - F1 Incoming Cubicle,Top
+115309,11/7/2018 12:00:00 AM,363.4,1,34,56.6,2,1,IMPSA 1,-,Panel 1 - F1 Incoming Cubicle,Bottom
+115309,11/3/2019 12:00:00 AM,188.43,4,32.5,59.8,2,1,IMPSA 1,-,Panel 1 - F1 Incoming Cubicle,Bottom
+115310,11/7/2018 12:00:00 AM,332.14,5,33.4,58.4,10,1,IMPSA 2,-,Panel 1 - C1 Incoming Cubicle,Top
+115310,12/3/2019 12:00:00 AM,497.02,7,29.8,69.4,10,1,IMPSA 2,-,Panel 1 - C1 Incoming Cubicle,Top
+115311,11/7/2018 12:00:00 AM,334.69,6,33.4,58.4,10,1,IMPSA 2,-,Panel 1 - C1 Incoming Cubicle,Bottom
+115311,12/3/2019 12:00:00 AM,581.55,4,29.8,69.4,10,1,IMPSA 2,-,Panel 1 - C1 Incoming Cubicle,Bottom
+115313,11/7/2018 12:00:00 AM,377.24,5,32.1,62.2,10,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Top
+115313,11/3/2019 12:00:00 AM,1314.21,5,50.4,34.9,10,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Top
+115314,11/7/2018 12:00:00 AM,253.44,1,32.1,62.2,10,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Bottom
+115314,11/3/2019 12:00:00 AM,2237.04,7,50.4,34.9,10,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Bottom
+115315,9/7/2018 12:00:00 AM,271.51,6,31.8,65,9.9,1,IMPSA 5,-,Panel 1 - A2 Incoming Cubicle,Top
+115315,11/3/2019 12:00:00 AM,810.8,5,34.7,51.3,10,1,IMPSA 5,-,Panel 1 - A2 Incoming Cubicle,Top
+115316,9/7/2018 12:00:00 AM,497.76,4,31.8,65,9.9,1,IMPSA 5,-,Panel 1 - A2 Incoming Cubicle,Bottom
+115316,11/3/2019 12:00:00 AM,341.64,2,34.7,51.3,10,1,IMPSA 5,-,Panel 1 - A2 Incoming Cubicle,Bottom
+115317,11/7/2018 12:00:00 AM,425.67,3,33.4,61.1,10,1,IMPSA 6,-,Panel 1 - H1 Incoming Cubicle,Top
+115317,11/3/2019 12:00:00 AM,246.3,3,33.9,52.1,10,1,IMPSA 6,-,Panel 1 - H1 Incoming Cubicle,Top
+115318,11/7/2018 12:00:00 AM,533.53,3,33.4,61.1,10,1,IMPSA 6,-,Panel 1 - H1 Incoming Cubicle,Bottom
+115318,11/3/2019 12:00:00 AM,252.11,2,33.9,52.1,10,1,IMPSA 6,-,Panel 1 - H1 Incoming Cubicle,Bottom
+115319,9/7/2018 12:00:00 AM,256.93,10,31.7,65.2,19,1,IMPSA 7,-,Panel 1 - D1 Incoming Cubicle,Top
+115319,12/3/2019 12:00:00 AM,837.23,3,32.9,58.4,19,1,IMPSA 7,-,Panel 1 - D1 Incoming Cubicle,Top
+115320,9/7/2018 12:00:00 AM,503.39,12,31.7,65.2,19,1,IMPSA 7,-,Panel 1 - D1 Incoming Cubicle,Bottom
+115320,12/3/2019 12:00:00 AM,198.09,6,32.9,58.4,19,1,IMPSA 7,-,Panel 1 - D1 Incoming Cubicle,Bottom
+115321,9/7/2018 12:00:00 AM,338.92,7,32.7,61.9,10.64,1,IMPSA 9,-,Panel 1 - B1 Incoming Cubicle,Top
+115321,11/3/2019 12:00:00 AM,288.36,4,34.9,54.3,11,1,IMPSA 9,-,Panel 1 - B1 Incoming Cubicle,Top
+115322,9/7/2018 12:00:00 AM,435.21,2,32.7,61.9,10.64,1,IMPSA 9,-,Panel 1 - B1 Incoming Cubicle,Bottom
+115322,11/3/2019 12:00:00 AM,257.44,3,34.9,54.3,11,1,IMPSA 9,-,Panel 1 - B1 Incoming Cubicle,Bottom
+115334,9/7/2018 12:00:00 AM,407.76,11,32.5,62.2,18,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Top
+115334,11/3/2019 12:00:00 AM,2364.16,7,33.4,57.3,18,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Top
+115335,9/7/2018 12:00:00 AM,434.96,6,32.5,62.2,18,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Bottom
+115335,11/3/2019 12:00:00 AM,319.11,9,33.4,57.3,18,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Bottom
+115337,11/7/2018 12:00:00 AM,388.68,4,34,56.6,2,1,IMPSA 1,-,Transformer 1,High Voltage side Point A
+115337,11/3/2019 12:00:00 AM,121.6,2,32.5,59.8,1100,1,IMPSA 1,-,Transformer 1,High Voltage side Point A
+115338,11/7/2018 12:00:00 AM,399.56,4,33.4,58.4,2,1,IMPSA 2,-,Transformer 1,High Voltage side Point A
+115338,12/3/2019 12:00:00 AM,540.16,2,29.8,69.4,900,1,IMPSA 2,-,Transformer 1,High Voltage side Point A
+115339,11/7/2018 12:00:00 AM,528.09,6,32.1,62.2,2,1,IMPSA 3,-,Transformer 1,High Voltage side Point A
+115339,11/3/2019 12:00:00 AM,559.74,5,50.4,34.9,900,1,IMPSA 3,-,Transformer 1,High Voltage side Point A
+115340,9/7/2018 12:00:00 AM,1021.62,5,31.8,65,100,1,IMPSA 5,-,Transformer 1,High Voltage side Point A
+115340,11/3/2019 12:00:00 AM,197.52,1,34.7,51.3,100,1,IMPSA 5,-,Transformer 1,High Voltage side Point A
+115341,11/7/2018 12:00:00 AM,363.56,1,33.4,61.1,2,1,IMPSA 6,-,Transformer 1,High Voltage side Point A
+115341,11/3/2019 12:00:00 AM,261.7,5,33.9,52.1,2,1,IMPSA 6,-,Transformer 1,High Voltage side Point A
+115342,9/7/2018 12:00:00 AM,543.83,11,31.7,65.2,800,1,IMPSA 7,-,Transformer 1,High Voltage side Point A
+115342,12/3/2019 12:00:00 AM,423.7,5,32.9,58.4,800,1,IMPSA 7,-,Transformer 1,High Voltage side Point A
+115343,9/7/2018 12:00:00 AM,2383.62,22,32.5,62.2,600,2,IMPSA 8,-,Transformer 1,High Voltage side Point A
+115343,11/3/2019 12:00:00 AM,1323.17,6,33.4,57.3,1100,1,IMPSA 8,-,Transformer 1,High Voltage side Point A
+115344,9/7/2018 12:00:00 AM,279.9,3,32.7,61.9,300,1,IMPSA 9,-,Transformer 1,High Voltage side Point A
+115344,11/3/2019 12:00:00 AM,301.33,7,34.9,54.3,3,1,IMPSA 9,-,Transformer 1,High Voltage side Point A
+18365,21/8/2017 12:00:00 AM,847.33,9,31.4,67.4,-3,1,Wharf 1 to 7,IMPSA Unloader 1,Panel 1 - Incoming Panel H1,Top
+18366,21/8/2017 12:00:00 AM,213.78,3,31.4,67.4,-3,?,Wharf 1 to 7,IMPSA Unloader 1,Panel 1 - Incoming Panel H1,Bottom
+18367,21/8/2017 12:00:00 AM,179.75,5,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Panel 2 - Transformer No.1 Feeder Panel H2,Top
+18368,21/8/2017 12:00:00 AM,178.23,3,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Panel 2 - Transformer No.1 Feeder Panel H2,Bottom
+18369,21/8/2017 12:00:00 AM,323.52,5,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Panel 3 - Transformer No.2 Feeder Panel H3,Top
+18370,21/8/2017 12:00:00 AM,198.33,7,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Panel 3 - Transformer No.2 Feeder Panel H3,Bottom
+18371,21/8/2017 12:00:00 AM,365.8,7,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 1 (S/N: 0194495) (11kV/415V),High Voltage side Point A
+18371,10/7/2018 12:00:00 AM,2249.12,12,28.5,81.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 1 (S/N: 0194495) (11kV/415V),High Voltage side Point A
+18371,15/3/2019 12:00:00 AM,185.54,3,35.1,58.7,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 1 (S/N: 0194495) (11kV/415V),High Voltage side Point A
+18372,21/8/2017 12:00:00 AM,207.09,1,31.4,67.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 2 (S/N: CT94497) (11kV/415V),High Voltage side Point A
+18372,10/7/2018 12:00:00 AM,1828.48,1,28.5,81.4,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 2 (S/N: CT94497) (11kV/415V),High Voltage side Point A
+18372,15/3/2019 12:00:00 AM,178.76,3,35.1,58.7,-4,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 2 (S/N: CT94497) (11kV/415V),High Voltage side Point A
+18373,21/8/2017 12:00:00 AM,491.4,11,32.3,61.4,-3,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 1 - Incomer Panel H1,Top
+18374,21/8/2017 12:00:00 AM,559.7,4,32.3,61.4,-3,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 1 - Incomer Panel H1,Bottom
+18376,21/8/2017 12:00:00 AM,843.46,9,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 2 - Transformer No.1 Feeder Panel H2,Top
+18377,21/8/2017 12:00:00 AM,397.6,4,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 2 - Transformer No.1 Feeder Panel H2,Bottom
+18378,21/8/2017 12:00:00 AM,559.18,4,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 3 - Transformer No.2 Feeder Panel H3,Top
+18379,21/8/2017 12:00:00 AM,164.58,11,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Panel 3 - Transformer No.2 Feeder Panel H3,Bottom
+18380,21/8/2017 12:00:00 AM,983.29,11,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 1 (S/N: C1944494),High Voltage side Point A
+18380,9/7/2018 12:00:00 AM,521.38,12,32.4,63.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 1 (S/N: C1944494),High Voltage side Point A
+18380,13/3/2019 12:00:00 AM,179.65,4,33.2,66.1,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 1 (S/N: C1944494),High Voltage side Point A
+18381,21/8/2017 12:00:00 AM,265.09,7,32.3,61.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 2 (S/N: CT94496),High Voltage side Point A
+18381,9/7/2018 12:00:00 AM,481.93,6,32.4,63.4,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 2 (S/N: CT94496),High Voltage side Point A
+18381,13/3/2019 12:00:00 AM,203.61,1,33.2,66.1,-4,?,Wharf 1 to 7,IMPSA Unloader 2,Transformer 2 (S/N: CT94496),High Voltage side Point A
+18383,21/8/2017 12:00:00 AM,325.94,2,32.7,60.3,33,?,Wharf 1 to 7,ZPMC QC1,Panel 1 - HA1.1 Incomer,Top
+18384,21/8/2017 12:00:00 AM,403.04,18,32.7,60.3,33,?,Wharf 1 to 7,ZPMC QC1,Panel 1 - HA1.1 Incomer,Bottom
+18385,21/8/2017 12:00:00 AM,171.59,15,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18385,9/7/2018 12:00:00 AM,745.18,6,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18385,15/3/2019 12:00:00 AM,120.44,1,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18386,21/8/2017 12:00:00 AM,317.78,7,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18386,9/7/2018 12:00:00 AM,397.99,5,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18386,15/3/2019 12:00:00 AM,102.78,4,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18387,21/8/2017 12:00:00 AM,296.89,11,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18387,9/7/2018 12:00:00 AM,559.96,9,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18387,15/3/2019 12:00:00 AM,234.04,5,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18388,21/8/2017 12:00:00 AM,525.73,6,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18388,9/7/2018 12:00:00 AM,416.17,10,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18388,15/3/2019 12:00:00 AM,161.46,2,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18389,21/8/2017 12:00:00 AM,79.98,7,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point A
+18389,9/7/2018 12:00:00 AM,791.15,10,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point A
+18389,15/3/2019 12:00:00 AM,232.65,1,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point A
+18390,21/8/2017 12:00:00 AM,88.69,7,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point B
+18390,9/7/2018 12:00:00 AM,460,5,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point B
+18390,15/3/2019 12:00:00 AM,174.45,3,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point B
+18391,21/8/2017 12:00:00 AM,81.78,5,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point C
+18391,9/7/2018 12:00:00 AM,441.81,9,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point C
+18391,15/3/2019 12:00:00 AM,185.6,3,32.5,48.8,2,?,Wharf 1 to 7,ZPMC QC1,Transformer 1 (Aux) (S/N: 110390) (11kV/415V),High Voltage side Point C
+18392,21/8/2017 12:00:00 AM,180.86,5,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point A
+18392,9/7/2018 12:00:00 AM,1025.62,8,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point A
+18392,15/3/2019 12:00:00 AM,233.39,1,32.5,48.8,1,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point A
+18393,21/8/2017 12:00:00 AM,128.77,10,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point B
+18393,9/7/2018 12:00:00 AM,980.55,11,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point B
+18393,15/3/2019 12:00:00 AM,120.29,1,32.5,48.8,1,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point B
+18394,21/8/2017 12:00:00 AM,380.95,4,32.7,60.3,15,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point C
+18394,9/7/2018 12:00:00 AM,981.1,47,33.7,61.3,12,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point C
+18394,15/3/2019 12:00:00 AM,161.53,2,32.5,48.8,1,?,Wharf 1 to 7,ZPMC QC1,Transformer 2 (Main) (S/N: 110387) (11kV/415V),High Voltage side Point C
+18395,21/8/2017 12:00:00 AM,389.96,3,32.3,65.7,4,?,Wharf 1 to 7,ZPMC QC2,Panel 1 - HA1.2 Incomer,Top
+18396,21/8/2017 12:00:00 AM,244.1,4,32.3,65.7,4,?,Wharf 1 to 7,ZPMC QC2,Panel 1 - HA1.2 Incomer,Bottom
+18397,21/8/2017 12:00:00 AM,397.47,5,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Top
+18397,10/7/2018 12:00:00 AM,879.77,10,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Top
+18397,13/3/2019 12:00:00 AM,533,7,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Top
+18398,21/8/2017 12:00:00 AM,207.3,3,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Bottom
+18398,10/7/2018 12:00:00 AM,802.35,4,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Bottom
+18398,13/3/2019 12:00:00 AM,303.04,8,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Panel 2 - HA2.2 Main Feeder,Bottom
+18399,21/8/2017 12:00:00 AM,344.59,6,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18399,10/7/2018 12:00:00 AM,584.44,4,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18399,13/3/2019 12:00:00 AM,671.49,8,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18400,21/8/2017 12:00:00 AM,294.37,1,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18400,10/7/2018 12:00:00 AM,1053.22,8,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18400,13/3/2019 12:00:00 AM,405.39,4,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18401,21/8/2017 12:00:00 AM,289.76,1,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point A
+18401,10/7/2018 12:00:00 AM,696.07,4,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point A
+18401,13/3/2019 12:00:00 AM,888.67,13,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point A
+18402,21/8/2017 12:00:00 AM,326.65,2,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point B
+18402,10/7/2018 12:00:00 AM,851.8,6,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point B
+18402,13/3/2019 12:00:00 AM,1799.58,7,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point B
+18403,21/8/2017 12:00:00 AM,440.9,7,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point C
+18403,10/7/2018 12:00:00 AM,848.26,6,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point C
+18403,13/3/2019 12:00:00 AM,995.21,25,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 1 (Aux) (S/N: 110391) (11kV/415V),High Voltage side Point C
+18404,21/8/2017 12:00:00 AM,264.15,3,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point A
+18404,10/7/2018 12:00:00 AM,1428.25,7,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point A
+18404,13/3/2019 12:00:00 AM,619.85,6,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point A
+18405,21/8/2017 12:00:00 AM,271.83,2,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point B
+18405,10/7/2018 12:00:00 AM,1896.69,28,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point B
+18405,13/3/2019 12:00:00 AM,383.18,12,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point B
+18406,21/8/2017 12:00:00 AM,308.57,2,32.3,65.7,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point C
+18406,10/7/2018 12:00:00 AM,1307.5,6,30.3,71.3,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point C
+18406,13/3/2019 12:00:00 AM,402.25,6,33.9,60.9,2,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point C
+18407,21/8/2017 12:00:00 AM,267.42,3,33.1,59.4,4,?,Wharf 1 to 7,ZPMC QC3,Panel 1 - HA1.3 Incomer,Top
+18408,21/8/2017 12:00:00 AM,304.03,4,33.1,59.4,4,?,Wharf 1 to 7,ZPMC QC3,Panel 1 - HA1.3 Incomer,Bottom
+18409,21/8/2017 12:00:00 AM,246.97,3,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18409,11/7/2018 12:00:00 AM,493.63,7,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18409,13/3/2019 12:00:00 AM,449.55,4,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18410,21/8/2017 12:00:00 AM,326.74,2,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18410,11/7/2018 12:00:00 AM,190.58,4,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18410,13/3/2019 12:00:00 AM,269.68,2,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18411,21/8/2017 12:00:00 AM,80.12,7,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18411,11/7/2018 12:00:00 AM,575.05,1,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18411,13/3/2019 12:00:00 AM,378.16,4,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18412,21/8/2017 12:00:00 AM,280.02,1,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18412,11/7/2018 12:00:00 AM,473.62,3,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18412,13/3/2019 12:00:00 AM,251.23,4,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18413,21/8/2017 12:00:00 AM,183.19,4,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point A
+18413,11/7/2018 12:00:00 AM,472.26,1,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point A
+18413,13/3/2019 12:00:00 AM,232.42,2,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point A
+18414,21/8/2017 12:00:00 AM,182.78,1,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point B
+18414,11/7/2018 12:00:00 AM,277.52,3,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point B
+18414,13/3/2019 12:00:00 AM,198.95,2,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point B
+18415,21/8/2017 12:00:00 AM,78.31,4,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point C
+18415,11/7/2018 12:00:00 AM,284.14,6,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point C
+18415,13/3/2019 12:00:00 AM,438.32,4,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 1 (Aux) (S/N: T10392) (11kV/415V),High Voltage side Point C
+18416,21/8/2017 12:00:00 AM,271.6,2,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point A
+18416,11/7/2018 12:00:00 AM,493.5,3,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point A
+18416,13/3/2019 12:00:00 AM,97.73,8,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point A
+18417,21/8/2017 12:00:00 AM,278.81,1,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point B
+18417,11/7/2018 12:00:00 AM,307.24,10,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point B
+18417,13/3/2019 12:00:00 AM,232.47,1,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point B
+18418,21/8/2017 12:00:00 AM,274.75,1,33.1,59.4,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point C
+18418,11/7/2018 12:00:00 AM,326.33,4,33.2,59.8,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point C
+18418,13/3/2019 12:00:00 AM,120.48,1,36.1,48.7,2,?,Wharf 1 to 7,ZPMC QC3,Transformer 2 (Main) (S/N: 110388) (11kV/415V),High Voltage side Point C
+18419,21/8/2017 12:00:00 AM,642,10,32.8,59.8,4,?,Wharf 1 to 7,ZPMC QC4,Panel 1 - HA1.4 Incomer,Top
+18420,21/8/2017 12:00:00 AM,490.31,2,32.8,59.8,4,?,Wharf 1 to 7,ZPMC QC4,Panel 1 - HA1.4 Incomer,Bottom
+18421,21/8/2017 12:00:00 AM,327.1,4,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Top
+18421,11/7/2018 12:00:00 AM,344.81,5,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Top
+18421,15/3/2019 12:00:00 AM,110.27,3,33.6,51,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Top
+18422,21/8/2017 12:00:00 AM,344.42,3,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Bottom
+18422,11/7/2018 12:00:00 AM,425,4,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Bottom
+18422,15/3/2019 12:00:00 AM,161.58,2,33.6,51,2,?,Wharf 1 to 7,ZPMC QC4,Panel 2 - HA2.4 Feeder,Bottom
+18423,21/8/2017 12:00:00 AM,379.57,6,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Top
+18423,11/7/2018 12:00:00 AM,508.16,1,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Top
+18423,15/3/2019 12:00:00 AM,205.61,1,33.6,51,1,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Top
+18424,21/8/2017 12:00:00 AM,73.53,7,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Bottom
+18424,11/7/2018 12:00:00 AM,665.78,3,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Bottom
+18424,15/3/2019 12:00:00 AM,117.09,2,33.6,51,1,?,Wharf 1 to 7,ZPMC QC4,Panel 3 - HA3.4 Aux Transformer Feeder,Bottom
+18425,21/8/2017 12:00:00 AM,891.82,7,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point A
+18425,11/7/2018 12:00:00 AM,286.73,1,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point A
+18425,15/3/2019 12:00:00 AM,94.03,7,33.6,51,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point A
+18426,21/8/2017 12:00:00 AM,599.74,7,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point B
+18426,11/7/2018 12:00:00 AM,434.82,2,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point B
+18426,15/3/2019 12:00:00 AM,208.9,1,33.6,51,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point B
+18427,21/8/2017 12:00:00 AM,634.57,6,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point C
+18427,11/7/2018 12:00:00 AM,542.8,2,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point C
+18427,15/3/2019 12:00:00 AM,116.63,2,33.6,51,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 1 (Aux) (S/N: T10393) (11kV/415V),High Voltage side Point C
+18428,21/8/2017 12:00:00 AM,879.24,10,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point A
+18428,11/7/2018 12:00:00 AM,315.55,9,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point A
+18428,15/3/2019 12:00:00 AM,16.61,7,33.6,51,1,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point A
+18429,21/8/2017 12:00:00 AM,761.61,8,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point B
+18429,11/7/2018 12:00:00 AM,97.36,7,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point B
+18429,15/3/2019 12:00:00 AM,32.82,7,33.6,51,1,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point B
+18430,21/8/2017 12:00:00 AM,1577.86,56,32.8,59.8,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point C
+18430,11/7/2018 12:00:00 AM,361.76,5,33.8,61.1,2,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point C
+18430,15/3/2019 12:00:00 AM,116.82,1,33.6,51,1,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point C
+18431,22/8/2017 12:00:00 AM,307.05,1,29.8,67.7,2.6,?,Wharf 1 to 7,ZPMC QC5,Panel 1 - HA1.1 Incomer,Top
+18432,22/8/2017 12:00:00 AM,343.81,3,29.8,67.7,2.6,?,Wharf 1 to 7,ZPMC QC5,Panel 1 - HA1.1 Incomer,Bottom
+18433,22/8/2017 12:00:00 AM,417.2,1,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18433,11/7/2018 12:00:00 AM,484.48,5,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18433,15/3/2019 12:00:00 AM,122.13,2,32.5,51.5,2,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Top
+18434,22/8/2017 12:00:00 AM,186.33,6,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18434,11/7/2018 12:00:00 AM,428,5,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18434,15/3/2019 12:00:00 AM,184.37,3,32.5,51.5,2,?,Wharf 1 to 7,ZPMC QC5,Panel 2 - HA2.1 Main Transformer Feeder,Bottom
+18435,22/8/2017 12:00:00 AM,369.76,3,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18435,11/7/2018 12:00:00 AM,574.24,6,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18435,15/3/2019 12:00:00 AM,416.54,1,32.5,51.5,1,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Top
+18436,22/8/2017 12:00:00 AM,124.63,3,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18436,11/7/2018 12:00:00 AM,410.58,3,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18436,15/3/2019 12:00:00 AM,215.08,2,32.5,51.5,1,?,Wharf 1 to 7,ZPMC QC5,Panel 3 - HA3.1 Aux Transformer Feeder,Bottom
+18438,22/8/2017 12:00:00 AM,545.84,6,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point A
+18438,11/7/2018 12:00:00 AM,357.61,7,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point A
+18438,15/3/2019 12:00:00 AM,122.82,1,32.5,51.5,2,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point A
+18439,22/8/2017 12:00:00 AM,930.4,11,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point B
+18439,11/7/2018 12:00:00 AM,370.2,5,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point B
+18439,15/3/2019 12:00:00 AM,120.03,5,32.5,51.5,2,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point B
+18440,22/8/2017 12:00:00 AM,331.26,4,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point C
+18440,11/7/2018 12:00:00 AM,879.82,8,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point C
+18440,15/3/2019 12:00:00 AM,181.45,4,32.5,51.5,2,?,Wharf 1 to 7,ZPMC QC5,Transformer 1 (Aux) (S/N: T11441) (11kV/415V),High Voltage side Point C
+18441,22/8/2017 12:00:00 AM,519.41,10,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point A
+18441,11/7/2018 12:00:00 AM,1199.93,7,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point A
+18441,15/3/2019 12:00:00 AM,99.76,5,32.5,51.5,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point A
+18442,22/8/2017 12:00:00 AM,497.12,4,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point B
+18442,11/7/2018 12:00:00 AM,778.58,4,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point B
+18442,15/3/2019 12:00:00 AM,101.35,9,32.5,51.5,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point B
+18443,22/8/2017 12:00:00 AM,509.04,4,31.7,61.7,54,?,Wharf 1 to 7,ZPMC QC6,Panel 1 - HA1.2 Incomer,Top
+18444,22/8/2017 12:00:00 AM,439.92,5,31.7,61.7,54,?,Wharf 1 to 7,ZPMC QC6,Panel 1 - HA1.2 Incomer,Bottom
+18445,22/8/2017 12:00:00 AM,419.52,7,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Top
+18445,10/7/2018 12:00:00 AM,622.58,8,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Top
+18445,12/3/2019 12:00:00 AM,212.48,3,33,59.4,15,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Top
+18446,22/8/2017 12:00:00 AM,271.46,2,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Bottom
+18446,10/7/2018 12:00:00 AM,945.57,11,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Bottom
+18446,12/3/2019 12:00:00 AM,156.56,8,33,59.4,15,?,Wharf 1 to 7,ZPMC QC6,Panel 2 - HA2.2 Main Transformer Feeder,Bottom
+18447,22/8/2017 12:00:00 AM,312.88,8,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18447,10/7/2018 12:00:00 AM,719.44,11,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18447,12/3/2019 12:00:00 AM,894.58,12,33,59.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Top
+18448,22/8/2017 12:00:00 AM,359.26,6,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18448,10/7/2018 12:00:00 AM,706.88,4,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18448,12/3/2019 12:00:00 AM,161.85,2,33,59.4,4,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom
+18449,22/8/2017 12:00:00 AM,453.48,6,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point A
+18449,10/7/2018 12:00:00 AM,597.02,11,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point A
+18449,12/3/2019 12:00:00 AM,478.21,4,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point A
+18450,22/8/2017 12:00:00 AM,568.04,5,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point B
+18450,10/7/2018 12:00:00 AM,414.98,4,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point B
+18450,12/3/2019 12:00:00 AM,370.82,4,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point B
+18451,22/8/2017 12:00:00 AM,275.87,7,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point C
+18451,10/7/2018 12:00:00 AM,496.54,6,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point C
+18451,12/3/2019 12:00:00 AM,169.47,4,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 1 (Aux) (S/N: T11442) (11kV/415V),High Voltage side Point C
+18452,22/8/2017 12:00:00 AM,1077.01,10,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point A
+18452,10/7/2018 12:00:00 AM,667.05,4,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point A
+18452,12/3/2019 12:00:00 AM,203.54,1,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point A
+18453,22/8/2017 12:00:00 AM,1450.98,9,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point B
+18453,10/7/2018 12:00:00 AM,598.1,6,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point B
+18453,12/3/2019 12:00:00 AM,120.09,1,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point B
+18454,22/8/2017 12:00:00 AM,340.86,7,31.7,61.7,25,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point C
+18454,10/7/2018 12:00:00 AM,641.85,7,31.1,60.4,4,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point C
+18454,12/3/2019 12:00:00 AM,106.8,7,33,59.4,40,?,Wharf 1 to 7,ZPMC QC6,Transformer 2 (Main) (S/N: T11445) (11kV/415V),High Voltage side Point C
+18455,22/8/2017 12:00:00 AM,489.49,2,31.4,67,10.56,?,Wharf 1 to 7,ZPMC QC7,Panel 1 - HA1.3 Incomer,Top
+18456,22/8/2017 12:00:00 AM,521.26,4,31.4,67,10.56,?,Wharf 1 to 7,ZPMC QC7,Panel 1 - HA1.3 Incomer,Bottom
+18457,22/8/2017 12:00:00 AM,675.39,7,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18457,10/7/2018 12:00:00 AM,440.64,7,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18457,12/3/2019 12:00:00 AM,178.35,3,34.2,60.4,15,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Top
+18458,22/8/2017 12:00:00 AM,636.17,6,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18458,10/7/2018 12:00:00 AM,425.51,7,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18458,12/3/2019 12:00:00 AM,112.77,1,34.2,60.4,15,?,Wharf 1 to 7,ZPMC QC7,Panel 2 - HA2.3 Main Transformer Feeder,Bottom
+18459,22/8/2017 12:00:00 AM,376.1,2,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18459,10/7/2018 12:00:00 AM,623.91,7,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18459,12/3/2019 12:00:00 AM,99.83,9,34.2,60.4,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Top
+18460,22/8/2017 12:00:00 AM,416.25,6,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18460,10/7/2018 12:00:00 AM,461.8,9,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18460,12/3/2019 12:00:00 AM,215.72,2,34.2,60.4,5,?,Wharf 1 to 7,ZPMC QC7,Panel 3 - HA3.3 Aux Transformer Feeder,Bottom
+18461,22/8/2017 12:00:00 AM,951.17,7,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point A
+18461,10/7/2018 12:00:00 AM,767.77,5,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point A
+18461,12/3/2019 12:00:00 AM,592.29,5,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point A
+18462,22/8/2017 12:00:00 AM,907.07,13,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point B
+18462,10/7/2018 12:00:00 AM,888.41,6,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point B
+18462,12/3/2019 12:00:00 AM,1748.79,19,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point B
+18463,22/8/2017 12:00:00 AM,760.85,10,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point C
+18463,10/7/2018 12:00:00 AM,895.23,3,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point C
+18463,12/3/2019 12:00:00 AM,664.72,21,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 1 (Aux) (S/N: T11440) (11kV/415V),High Voltage side Point C
+18464,22/8/2017 12:00:00 AM,910.79,6,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point A
+18464,10/7/2018 12:00:00 AM,1016.86,4,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point A
+18464,12/3/2019 12:00:00 AM,99,7,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point A
+18465,22/8/2017 12:00:00 AM,920.34,8,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point B
+18465,10/7/2018 12:00:00 AM,922.17,5,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point B
+18465,12/3/2019 12:00:00 AM,202.4,6,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point B
+18466,22/8/2017 12:00:00 AM,963.38,11,31.4,67,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point C
+18466,10/7/2018 12:00:00 AM,792.01,10,30.4,69.7,5,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point C
+18466,12/3/2019 12:00:00 AM,291.61,5,34.2,60.4,40,?,Wharf 1 to 7,ZPMC QC7,Transformer 2 (Main) (S/N: T11444) (11kV/415V),High Voltage side Point C
+18467,22/8/2017 12:00:00 AM,294.28,3,29.8,67.7,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point C
+18467,11/7/2018 12:00:00 AM,558.45,10,36.6,52.3,12,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point C
+18467,15/3/2019 12:00:00 AM,121.6,1,32.5,51.5,1,?,Wharf 1 to 7,ZPMC QC5,Transformer 2 (Main) (S/N: T11443) (11kV/415V),High Voltage side Point C
+18468,22/8/2017 12:00:00 AM,294.17,1,31.5,60,4,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18468,11/7/2018 12:00:00 AM,428.88,4,33.9,58.4,4,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18468,14/3/2019 12:00:00 AM,935.33,23,34.3,56.6,32,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18469,22/8/2017 12:00:00 AM,255.2,4,31.5,60,4,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18469,11/7/2018 12:00:00 AM,342.39,3,33.9,58.4,4,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18469,14/3/2019 12:00:00 AM,1060.9,7,34.3,56.6,32,?,-,Mitsui QC11,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18470,22/8/2017 12:00:00 AM,234.88,2,31.5,60,4,?,-,Mitsui QC11,Panel 2 - Incoming Panel,Top
+18471,22/8/2017 12:00:00 AM,179.99,1,31.5,60,4,?,-,Mitsui QC11,Panel 2 - Incoming Panel,Bottom
+18472,22/8/2017 12:00:00 AM,261.42,1,31.5,60,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point A
+18472,11/7/2018 12:00:00 AM,302.93,3,33.9,58.4,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point A
+18472,14/3/2019 12:00:00 AM,889.78,6,34.3,56.6,30,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point A
+18473,22/8/2017 12:00:00 AM,173.27,2,31.5,60,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point B
+18473,11/7/2018 12:00:00 AM,366.39,1,33.9,58.4,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point B
+18473,14/3/2019 12:00:00 AM,1153.07,8,34.3,56.6,30,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point B
+18474,22/8/2017 12:00:00 AM,122.84,7,31.5,60,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point C
+18474,11/7/2018 12:00:00 AM,367.19,1,33.9,58.4,2,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point C
+18474,14/3/2019 12:00:00 AM,962.25,6,34.3,56.6,30,?,-,Mitsui QC11,Transformer 750KVA (S/N: A1M23346T602-3) (11kV/440V),High Voltage side Point C
+18475,22/8/2017 12:00:00 AM,82.31,7,31.5,60,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point A
+18475,11/7/2018 12:00:00 AM,373.46,1,33.9,58.4,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point A
+18475,14/3/2019 12:00:00 AM,1165.7,10,34.3,56.6,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point A
+18476,22/8/2017 12:00:00 AM,172.07,1,31.5,60,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point B
+18476,11/7/2018 12:00:00 AM,110.99,7,33.9,58.4,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point B
+18476,14/3/2019 12:00:00 AM,839.3,9,34.3,56.6,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point B
+18477,22/8/2017 12:00:00 AM,82.9,7,31.5,60,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point C
+18477,11/7/2018 12:00:00 AM,341.03,2,33.9,58.4,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point C
+18477,14/3/2019 12:00:00 AM,931.07,6,34.3,56.6,2,?,-,Mitsui QC11,Transformer 150KVA (S/N: A1M23346T601-2) (11kV/380V),High Voltage side Point C
+18478,22/8/2017 12:00:00 AM,447.03,5,33.1,55.4,4,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Top
+18478,12/7/2018 12:00:00 AM,291.93,1,31.2,65.2,4,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Top
+18478,14/3/2019 12:00:00 AM,211.47,3,34.6,46.4,3,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Top
+18479,22/8/2017 12:00:00 AM,283.78,3,33.1,55.4,4,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Bottom
+18479,12/7/2018 12:00:00 AM,270.89,2,31.2,65.2,4,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Bottom
+18479,14/3/2019 12:00:00 AM,310.03,2,34.6,46.4,3,?,-,Mitsui QC12,Panel 1 - 830KVA/150KVA Transformer Panel,Bottom
+18480,22/8/2017 12:00:00 AM,333.82,6,33.1,55.4,4,?,-,Mitsui QC12,Panel 2 - Incoming Panel,Top
+18481,22/8/2017 12:00:00 AM,144.77,7,33.1,55.4,4,?,-,Mitsui QC12,Panel 2 - Incoming Panel,Bottom
+18482,22/8/2017 12:00:00 AM,404.38,1,33.1,55.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point A
+18482,12/7/2018 12:00:00 AM,310.95,2,31.2,65.2,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point A
+18482,14/3/2019 12:00:00 AM,311.32,1,34.6,46.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point A
+18483,22/8/2017 12:00:00 AM,294.11,1,33.1,55.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point B
+18483,12/7/2018 12:00:00 AM,287.65,1,31.2,65.2,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point B
+18483,14/3/2019 12:00:00 AM,310.62,1,34.6,46.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point B
+18484,22/8/2017 12:00:00 AM,357.56,1,33.1,55.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point C
+18484,12/7/2018 12:00:00 AM,360.74,4,31.2,65.2,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point C
+18484,14/3/2019 12:00:00 AM,227.91,2,34.6,46.4,2,?,-,Mitsui QC12,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/415V),High Voltage side Point C
+18486,22/8/2017 12:00:00 AM,279.45,3,33.1,55.4,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point A
+18486,12/7/2018 12:00:00 AM,353.45,4,31.2,65.2,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point A
+18486,14/3/2019 12:00:00 AM,304.4,4,34.6,46.4,1,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point A
+18487,22/8/2017 12:00:00 AM,245.88,3,33.1,55.4,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point B
+18487,12/7/2018 12:00:00 AM,374.96,3,31.2,65.2,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point B
+18487,14/3/2019 12:00:00 AM,365.13,3,34.6,46.4,1,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point B
+18488,22/8/2017 12:00:00 AM,246.47,1,33.1,55.4,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point C
+18488,12/7/2018 12:00:00 AM,462.1,4,31.2,65.2,2,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point C
+18488,14/3/2019 12:00:00 AM,311.34,1,34.6,46.4,1,?,-,Mitsui QC12,Transformer 150KVA (S/N: A1A20754T602-2) (11kV/380V),High Voltage side Point C
+18489,22/8/2017 12:00:00 AM,297.9,1,33.4,53.5,4,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18489,12/7/2018 12:00:00 AM,304.98,2,31.7,64.3,4,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18489,14/3/2019 12:00:00 AM,755.3,4,35.2,52.8,42,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18490,22/8/2017 12:00:00 AM,247.37,1,33.4,53.5,4,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18490,12/7/2018 12:00:00 AM,243.52,3,31.7,64.3,4,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18490,14/3/2019 12:00:00 AM,594.74,4,35.2,52.8,42,?,-,Mitsui QC13,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18491,22/8/2017 12:00:00 AM,341.2,5,33.4,53.5,4,?,-,Mitsui QC13,Panel 2 - Incoming Panel,Top
+18492,22/8/2017 12:00:00 AM,216.95,2,33.4,53.5,4,?,-,Mitsui QC13,Panel 2 - Incoming Panel,Bottom
+18493,22/8/2017 12:00:00 AM,435.22,2,33.4,53.5,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point A
+18493,12/7/2018 12:00:00 AM,298.35,3,31.7,64.3,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point A
+18493,14/3/2019 12:00:00 AM,773.39,3,35.2,52.8,40,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point A
+18494,22/8/2017 12:00:00 AM,475.57,6,33.4,53.5,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point B
+18494,12/7/2018 12:00:00 AM,216.92,2,31.7,64.3,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point B
+18494,14/3/2019 12:00:00 AM,1112.05,12,35.2,52.8,40,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point B
+18495,22/8/2017 12:00:00 AM,272.05,2,33.4,53.5,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point A
+18495,12/7/2018 12:00:00 AM,356.65,1,31.7,64.3,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point A
+18495,14/3/2019 12:00:00 AM,339.01,7,35.2,52.8,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point A
+18496,22/8/2017 12:00:00 AM,203.82,3,33.4,53.5,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point B
+18496,12/7/2018 12:00:00 AM,406.01,1,31.7,64.3,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point B
+18496,14/3/2019 12:00:00 AM,482.99,2,35.2,52.8,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point B
+18497,22/8/2017 12:00:00 AM,180,2,33.4,53.5,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point C
+18497,12/7/2018 12:00:00 AM,243.96,3,31.7,64.3,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point C
+18497,14/3/2019 12:00:00 AM,451.19,6,35.2,52.8,2,?,-,Mitsui QC13,Transformer 150KVA (S/N: A1A20754T602-1) (11kV/380V),High Voltage side Point C
+18498,22/8/2017 12:00:00 AM,216.99,2,32.6,55,4,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18498,10/7/2018 12:00:00 AM,1686.92,4,31.4,61.4,32,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18498,14/3/2019 12:00:00 AM,1200.85,22,36,45.6,7,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18499,22/8/2017 12:00:00 AM,178.65,1,32.6,55,4,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18499,10/7/2018 12:00:00 AM,989.74,10,31.4,61.4,32,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18499,14/3/2019 12:00:00 AM,1417.83,14,36,45.6,7,?,-,Mitsui QC14,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18500,22/8/2017 12:00:00 AM,402.46,3,32.6,55,4,?,-,Mitsui QC14,Panel 2 - Incoming Panel,Top
+18501,22/8/2017 12:00:00 AM,381.83,2,32.6,55,4,?,-,Mitsui QC14,Panel 2 - Incoming Panel,Bottom
+18502,22/8/2017 12:00:00 AM,293.7,4,33.4,53.5,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point C
+18502,12/7/2018 12:00:00 AM,195.35,1,31.7,64.3,2,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point C
+18502,14/3/2019 12:00:00 AM,592.85,8,35.2,52.8,40,?,-,Mitsui QC13,Transformer 830KVA (S/N: A1A20754T601-2) (11kV/440V),High Voltage side Point C
+18503,22/8/2017 12:00:00 AM,207.74,5,32.6,55,2,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point A
+18503,10/7/2018 12:00:00 AM,1913.79,28,31.4,61.4,30,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point A
+18503,14/3/2019 12:00:00 AM,1172.16,7,36,45.6,4,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point A
+18504,22/8/2017 12:00:00 AM,308.07,6,32.6,55,2,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point B
+18504,10/7/2018 12:00:00 AM,2319.38,36,31.4,61.4,30,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point B
+18504,14/3/2019 12:00:00 AM,950.71,10,36,45.6,4,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point B
+18505,22/8/2017 12:00:00 AM,385.91,1,32.6,55,2,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point C
+18505,10/7/2018 12:00:00 AM,1804.57,28,31.4,61.4,30,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point C
+18505,14/3/2019 12:00:00 AM,1103.08,11,36,45.6,4,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point C
+18506,22/8/2017 12:00:00 AM,390.79,1,32.6,55,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point A
+18506,10/7/2018 12:00:00 AM,2317.29,11,31.4,61.4,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point A
+18506,14/3/2019 12:00:00 AM,689.21,10,36,45.6,3,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point A
+18507,22/8/2017 12:00:00 AM,341.22,3,32.6,55,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point B
+18507,10/7/2018 12:00:00 AM,1272.25,45,31.4,61.4,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point B
+18507,14/3/2019 12:00:00 AM,659.38,6,36,45.6,3,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point B
+18508,22/8/2017 12:00:00 AM,334.19,2,32.6,55,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point C
+18508,10/7/2018 12:00:00 AM,957.26,14,31.4,61.4,2,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point C
+18508,14/3/2019 12:00:00 AM,1330.06,1,36,45.6,3,?,-,Mitsui QC14,Transformer 150KVA (S/N: A1M23346T601-3) (11kV/380V),High Voltage side Point C
+18510,22/8/2017 12:00:00 AM,272.16,2,32.1,56.4,4,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18510,10/7/2018 12:00:00 AM,932.63,7,32.8,58.7,23,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18510,14/3/2019 12:00:00 AM,877.92,19,34.4,47.7,8,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18511,22/8/2017 12:00:00 AM,278.44,4,32.1,56.4,4,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18511,10/7/2018 12:00:00 AM,947.51,6,32.8,58.7,23,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18511,14/3/2019 12:00:00 AM,552.65,7,34.4,47.7,8,?,-,Mitsui QC15,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18512,22/8/2017 12:00:00 AM,97.06,7,32.1,56.4,4,?,-,Mitsui QC15,Panel 2 - Incoming Panel,Top
+18513,22/8/2017 12:00:00 AM,298.9,4,32.1,56.4,4,?,-,Mitsui QC15,Panel 2 - Incoming Panel,Bottom
+18514,22/8/2017 12:00:00 AM,220.66,2,32.1,56.4,2,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point A
+18514,10/7/2018 12:00:00 AM,1135.73,1,32.8,58.7,20,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point A
+18514,14/3/2019 12:00:00 AM,937.9,6,34.4,47.7,6,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point A
+18515,22/8/2017 12:00:00 AM,236.81,3,32.1,56.4,2,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point B
+18515,10/7/2018 12:00:00 AM,1855.29,9,32.8,58.7,20,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point B
+18515,14/3/2019 12:00:00 AM,1016.58,10,34.4,47.7,6,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point B
+18516,22/8/2017 12:00:00 AM,298.84,4,32.1,56.4,2,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point C
+18516,10/7/2018 12:00:00 AM,1650.03,6,32.8,58.7,20,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point C
+18516,14/3/2019 12:00:00 AM,397.03,6,34.4,47.7,6,?,-,Mitsui QC15,Transformer 830KVA (S/N: A1F28557T601-1) (11kV/440V),High Voltage side Point C
+18517,22/8/2017 12:00:00 AM,201.63,3,32.1,56.4,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point A
+18517,10/7/2018 12:00:00 AM,678.54,5,32.8,58.7,3,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point A
+18517,14/3/2019 12:00:00 AM,705.82,7,34.4,47.7,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point A
+18518,22/8/2017 12:00:00 AM,278.74,1,32.1,56.4,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point B
+18518,10/7/2018 12:00:00 AM,1378.24,6,32.8,58.7,3,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point B
+18518,14/3/2019 12:00:00 AM,933.62,10,34.4,47.7,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point B
+18519,22/8/2017 12:00:00 AM,331.53,9,32.1,56.4,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point C
+18519,10/7/2018 12:00:00 AM,843.36,8,32.8,58.7,3,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point C
+18519,14/3/2019 12:00:00 AM,473.9,5,34.4,47.7,2,?,-,Mitsui QC15,Transformer 150KVA (S/N: A1F28557T602-2) (11kV/380V),High Voltage side Point C
+18520,22/8/2017 12:00:00 AM,297.12,1,32.1,55,4,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18520,10/7/2018 12:00:00 AM,688.48,11,32.8,58.7,13,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18520,14/3/2019 12:00:00 AM,451.11,1,35.4,49.3,2,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Top
+18521,22/8/2017 12:00:00 AM,312.95,4,32.1,55,4,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18521,10/7/2018 12:00:00 AM,509.87,5,32.8,58.7,13,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18521,14/3/2019 12:00:00 AM,355.66,3,35.4,49.3,2,?,-,Mitsui QC16,Panel 1 - 750KVA/150KVA Transformer Panel,Bottom
+18522,22/8/2017 12:00:00 AM,364.58,4,32.1,55,4,?,-,Mitsui QC16,Panel 2 - Incoming Panel,Top
+18523,22/8/2017 12:00:00 AM,249.48,1,32.1,55,4,?,-,Mitsui QC16,Panel 2 - Incoming Panel,Bottom
+18524,22/8/2017 12:00:00 AM,385.51,3,32.1,55,2,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point A
+18524,10/7/2018 12:00:00 AM,1188.64,6,32.8,58.7,10,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point A
+18524,14/3/2019 12:00:00 AM,495.29,5,35.4,49.3,1,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point A
+18525,22/8/2017 12:00:00 AM,275.85,3,32.1,55,2,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point B
+18525,10/7/2018 12:00:00 AM,1615.25,7,32.8,58.7,10,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point B
+18525,14/3/2019 12:00:00 AM,343.63,5,35.4,49.3,1,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point B
+18526,22/8/2017 12:00:00 AM,311.87,6,32.1,55,2,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point C
+18526,10/7/2018 12:00:00 AM,1414,7,32.8,58.7,10,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point C
+18526,14/3/2019 12:00:00 AM,270.42,2,35.4,49.3,1,?,-,Mitsui QC16,Transformer 830KVA (S/N: A1F28857T601-2) (11kV/440V),High Voltage side Point C
+18527,22/8/2017 12:00:00 AM,344.35,2,32.1,55,2,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point A
+18527,10/7/2018 12:00:00 AM,1109.76,15,32.8,58.7,3,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point A
+18527,14/3/2019 12:00:00 AM,339.85,1,35.4,49.3,1,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point A
+18528,22/8/2017 12:00:00 AM,289.5,1,32.1,55,2,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point B
+18528,10/7/2018 12:00:00 AM,1402.6,4,32.8,58.7,3,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point B
+18528,14/3/2019 12:00:00 AM,202.33,1,35.4,49.3,1,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point B
+18529,22/8/2017 12:00:00 AM,267.05,3,32.1,55,2,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point C
+18529,10/7/2018 12:00:00 AM,834.22,24,32.8,58.7,3,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point C
+18529,14/3/2019 12:00:00 AM,325.01,2,35.4,49.3,1,?,-,Mitsui QC16,Transformer 150KVA (S/N: A1F28857T602-2) (11kV/380V),High Voltage side Point C
+18530,22/8/2017 12:00:00 AM,360.05,1,32.1,56.1,4,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18530,10/7/2018 12:00:00 AM,544.36,2,33.4,59.8,10,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18530,14/3/2019 12:00:00 AM,482.18,4,33.3,54.1,2,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18531,22/8/2017 12:00:00 AM,271.09,2,32.1,56.1,4,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18531,10/7/2018 12:00:00 AM,589.9,3,33.4,59.8,10,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18531,14/3/2019 12:00:00 AM,358.25,3,33.3,54.1,2,?,-,Mitsui QC17,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18532,22/8/2017 12:00:00 AM,326.26,2,32.1,56.1,4,?,-,Mitsui QC17,Panel 2 - Incoming Panel,Top
+18533,22/8/2017 12:00:00 AM,277.44,5,32.1,56.1,4,?,-,Mitsui QC17,Panel 2 - Incoming Panel,Bottom
+18534,22/8/2017 12:00:00 AM,341.52,3,32.1,56.1,2,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point A
+18534,10/7/2018 12:00:00 AM,395.85,1,33.4,59.8,5,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point A
+18534,14/3/2019 12:00:00 AM,475.85,5,33.3,54.1,1,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point A
+18535,22/8/2017 12:00:00 AM,326.25,2,32.1,56.1,2,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point B
+18535,10/7/2018 12:00:00 AM,534.96,11,33.4,59.8,5,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point B
+18535,14/3/2019 12:00:00 AM,435.95,1,33.3,54.1,1,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point B
+18536,22/8/2017 12:00:00 AM,496.57,2,32.1,56.1,2,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point C
+18536,10/7/2018 12:00:00 AM,516.96,8,33.4,59.8,5,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point C
+18536,14/3/2019 12:00:00 AM,513.85,4,33.3,54.1,1,?,-,Mitsui QC17,Transformer 1200KVA (S/N: A1F27877T601-1) (11kV/440V),High Voltage side Point C
+18537,22/8/2017 12:00:00 AM,326.85,2,32.1,56.1,2,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point A
+18537,10/7/2018 12:00:00 AM,216.2,2,33.4,59.8,5,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point A
+18537,14/3/2019 12:00:00 AM,270.69,2,33.3,54.1,1,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point A
+18538,22/8/2017 12:00:00 AM,391.05,1,32.1,56.1,2,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point B
+18538,10/7/2018 12:00:00 AM,271.66,2,33.4,59.8,5,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point B
+18538,14/3/2019 12:00:00 AM,320.41,2,33.3,54.1,1,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point B
+18539,22/8/2017 12:00:00 AM,261.08,1,32.1,56.1,2,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point C
+18539,10/7/2018 12:00:00 AM,204.5,3,33.4,59.8,5,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point C
+18539,14/3/2019 12:00:00 AM,182.3,3,33.3,54.1,1,?,-,Mitsui QC17,Transformer 150KVA (S/N: A1F27877T602-1) (11kV/440V),High Voltage side Point C
+18540,22/8/2017 12:00:00 AM,467.84,1,32.7,53.9,4,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18540,10/7/2018 12:00:00 AM,1109.5,10,32.3,59.6,45,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18540,14/3/2019 12:00:00 AM,378.95,2,32.5,55.4,2,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18541,22/8/2017 12:00:00 AM,731.77,6,32.7,53.9,4,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18541,10/7/2018 12:00:00 AM,1022.9,13,32.3,59.6,45,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18541,14/3/2019 12:00:00 AM,327.79,3,32.5,55.4,2,?,-,Mitsui QC18,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18542,22/8/2017 12:00:00 AM,615.06,3,32.7,53.9,4,?,-,Mitsui QC18,Panel 2 - Incoming Panel,Top
+18543,22/8/2017 12:00:00 AM,434.99,2,32.7,53.9,4,?,-,Mitsui QC18,Panel 2 - Incoming Panel,Bottom
+18544,22/8/2017 12:00:00 AM,603.02,6,32.7,53.9,2,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point A
+18544,10/7/2018 12:00:00 AM,584.4,8,32.3,59.6,40,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point A
+18544,14/3/2019 12:00:00 AM,378.69,2,32.5,55.4,1,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point A
+18545,22/8/2017 12:00:00 AM,719.68,7,32.7,53.9,2,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point B
+18545,10/7/2018 12:00:00 AM,893.73,11,32.3,59.6,40,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point B
+18545,14/3/2019 12:00:00 AM,437.27,5,32.5,55.4,1,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point B
+18546,22/8/2017 12:00:00 AM,571.49,8,32.7,53.9,2,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point C
+18546,10/7/2018 12:00:00 AM,1061.16,5,32.3,59.6,40,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point C
+18546,14/3/2019 12:00:00 AM,335.5,4,32.5,55.4,1,?,-,Mitsui QC18,Transformer 1200KVA (S/N: A1F27877T601-2) (11kV/440V),High Voltage side Point C
+18547,22/8/2017 12:00:00 AM,581.06,11,32.7,53.9,2,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point A
+18547,10/7/2018 12:00:00 AM,1081.67,7,32.3,59.6,5,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point A
+18547,14/3/2019 12:00:00 AM,270.13,5,32.5,55.4,1,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point A
+18548,22/8/2017 12:00:00 AM,581.23,7,32.7,53.9,2,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point B
+18548,10/7/2018 12:00:00 AM,1641.41,13,32.3,59.6,5,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point B
+18548,14/3/2019 12:00:00 AM,417.6,1,32.5,55.4,1,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point B
+18549,22/8/2017 12:00:00 AM,564.87,3,32.7,53.9,2,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point C
+18549,10/7/2018 12:00:00 AM,953.44,7,32.3,59.6,5,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point C
+18549,14/3/2019 12:00:00 AM,359.79,7,32.5,55.4,1,?,-,Mitsui QC18,Transformer 150KVA (S/N: A1F27877T602-2) (11kV/440V),High Voltage side Point C
+18550,22/8/2017 12:00:00 AM,225.13,2,32.2,53.7,4,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18550,10/7/2018 12:00:00 AM,952.15,3,33.7,54.5,23,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18550,12/3/2019 12:00:00 AM,695.72,5,35.5,48.8,5,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18551,22/8/2017 12:00:00 AM,77.28,7,32.2,53.7,4,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18551,10/7/2018 12:00:00 AM,818.98,8,33.7,54.5,23,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18551,12/3/2019 12:00:00 AM,406.69,9,35.5,48.8,5,?,-,Mitsui QC19,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18552,22/8/2017 12:00:00 AM,602.96,1,32.2,53.7,4,?,-,Mitsui QC19,Panel 2 - Incoming Panel,Top
+18553,22/8/2017 12:00:00 AM,460.85,4,32.2,53.7,4,?,-,Mitsui QC19,Panel 2 - Incoming Panel,Bottom
+18554,22/8/2017 12:00:00 AM,381.56,3,32.2,53.7,2,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point A
+18554,10/7/2018 12:00:00 AM,339.75,5,33.7,54.5,20,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point A
+18554,12/3/2019 12:00:00 AM,263.64,6,35.5,48.8,3,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point A
+18555,22/8/2017 12:00:00 AM,102.24,7,32.2,53.7,2,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point B
+18555,10/7/2018 12:00:00 AM,711.32,3,33.7,54.5,20,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point B
+18555,12/3/2019 12:00:00 AM,359.07,4,35.5,48.8,3,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point B
+18556,22/8/2017 12:00:00 AM,376.47,1,32.2,53.7,2,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point C
+18556,10/7/2018 12:00:00 AM,533.9,7,33.7,54.5,20,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point C
+18556,12/3/2019 12:00:00 AM,477.25,4,35.5,48.8,3,?,-,Mitsui QC19,Transformer 1200KVA (S/N: A1T60603T601-1) (11kV/440V),High Voltage side Point C
+18557,22/8/2017 12:00:00 AM,163.03,3,32.2,53.7,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point A
+18557,10/7/2018 12:00:00 AM,652.76,2,33.7,54.5,3,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point A
+18557,12/3/2019 12:00:00 AM,90.93,7,35.5,48.8,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point A
+18558,22/8/2017 12:00:00 AM,379.76,1,32.2,53.7,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point B
+18558,10/7/2018 12:00:00 AM,499.17,1,33.7,54.5,3,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point B
+18558,12/3/2019 12:00:00 AM,580.38,8,35.5,48.8,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point B
+18559,22/8/2017 12:00:00 AM,271.76,2,32.2,53.7,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point C
+18559,10/7/2018 12:00:00 AM,369.28,1,33.7,54.5,3,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point C
+18559,12/3/2019 12:00:00 AM,120.77,2,35.5,48.8,2,?,-,Mitsui QC19,Transformer 150KVA (S/N: A1T60603T602-1) (11kV/415V),High Voltage side Point C
+18560,23/8/2017 12:00:00 AM,500.04,2,30.4,66.7,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18560,11/7/2018 12:00:00 AM,516.82,4,29.1,71.6,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18560,12/3/2019 12:00:00 AM,122.85,2,36.1,45.7,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18561,23/8/2017 12:00:00 AM,258.14,3,30.4,66.7,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18561,11/7/2018 12:00:00 AM,489.35,4,29.1,71.6,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18561,12/3/2019 12:00:00 AM,201.96,1,36.1,45.7,4,?,-,Mitsui QC20,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18562,23/8/2017 12:00:00 AM,229.69,1,30.4,66.7,4,?,-,Mitsui QC20,Panel 2 - Incoming Panel,Top
+18563,23/8/2017 12:00:00 AM,430.12,3,30.4,66.7,4,?,-,Mitsui QC20,Panel 2 - Incoming Panel,Bottom
+18564,23/8/2017 12:00:00 AM,1068.28,1,30.4,66.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point A
+18564,11/7/2018 12:00:00 AM,419.57,6,29.1,71.6,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point A
+18564,12/3/2019 12:00:00 AM,324.41,6,36.1,45.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point A
+18565,23/8/2017 12:00:00 AM,435.4,8,30.4,66.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point B
+18565,11/7/2018 12:00:00 AM,423.66,1,29.1,71.6,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point B
+18565,12/3/2019 12:00:00 AM,458.69,4,36.1,45.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point B
+18566,23/8/2017 12:00:00 AM,435.75,2,30.4,66.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point C
+18566,11/7/2018 12:00:00 AM,371.05,7,29.1,71.6,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point C
+18566,12/3/2019 12:00:00 AM,294.25,6,36.1,45.7,2,?,-,Mitsui QC20,Transformer 1200KVA (S/N: A1T60603T601-2) (11kV/440V),High Voltage side Point C
+18567,23/8/2017 12:00:00 AM,244.53,4,30.4,66.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point A
+18567,11/7/2018 12:00:00 AM,344.99,4,29.1,71.6,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point A
+18567,12/3/2019 12:00:00 AM,243.13,4,36.1,45.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point A
+18568,23/8/2017 12:00:00 AM,298.92,4,30.4,66.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point B
+18568,11/7/2018 12:00:00 AM,218.02,2,29.1,71.6,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point B
+18568,12/3/2019 12:00:00 AM,234.77,5,36.1,45.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point B
+18569,23/8/2017 12:00:00 AM,415.93,2,30.4,66.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point C
+18569,11/7/2018 12:00:00 AM,373.82,4,29.1,71.6,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point C
+18569,12/3/2019 12:00:00 AM,121.57,7,36.1,45.7,2,?,-,Mitsui QC20,Transformer 150KVA (S/N: A1T60603T602-2) (11kV/415V),High Voltage side Point C
+18570,23/8/2017 12:00:00 AM,477.45,3,33.3,57.4,20,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18570,11/7/2018 12:00:00 AM,653.07,2,29.6,71.1,4,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18570,12/3/2019 12:00:00 AM,197.71,4,37.2,49.3,4,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18571,23/8/2017 12:00:00 AM,686.73,7,33.3,57.4,20,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18571,11/7/2018 12:00:00 AM,409.3,3,29.6,71.1,4,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18571,12/3/2019 12:00:00 AM,306.22,7,37.2,49.3,4,?,-,Mitsui QC21,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18572,23/8/2017 12:00:00 AM,878.9,6,33.3,57.4,20,?,-,Mitsui QC21,Panel 2 - Incoming Panel,Top
+18573,23/8/2017 12:00:00 AM,852.15,6,33.3,57.4,20,?,-,Mitsui QC21,Panel 2 - Incoming Panel,Bottom
+18574,23/8/2017 12:00:00 AM,576.34,8,33.3,57.4,10,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point A
+18574,11/7/2018 12:00:00 AM,425.79,6,29.6,71.1,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point A
+18574,12/3/2019 12:00:00 AM,425.99,6,37.2,49.3,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point A
+18575,23/8/2017 12:00:00 AM,312.23,7,33.3,57.4,10,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point B
+18575,11/7/2018 12:00:00 AM,489.45,2,29.6,71.1,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point B
+18575,12/3/2019 12:00:00 AM,363.66,5,37.2,49.3,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point B
+18576,23/8/2017 12:00:00 AM,967.23,3,33.3,57.4,10,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point C
+18576,11/7/2018 12:00:00 AM,387.84,3,29.6,71.1,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point C
+18576,12/3/2019 12:00:00 AM,216.29,2,37.2,49.3,2,?,-,Mitsui QC21,Transformer 1200KVA (S/N: A1T68655T601-1) (11kV/440V),High Voltage side Point C
+18577,23/8/2017 12:00:00 AM,428.92,11,33.3,57.4,10,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point A
+18577,11/7/2018 12:00:00 AM,243.95,2,29.6,71.1,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point A
+18577,12/3/2019 12:00:00 AM,116.76,7,37.2,49.3,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point A
+18578,23/8/2017 12:00:00 AM,477.11,11,33.3,57.4,10,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point B
+18578,11/7/2018 12:00:00 AM,266.77,7,29.6,71.1,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point B
+18578,12/3/2019 12:00:00 AM,196.96,4,37.2,49.3,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point B
+18579,23/8/2017 12:00:00 AM,1092.64,5,33.3,57.4,10,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point C
+18579,11/7/2018 12:00:00 AM,287.67,5,29.6,71.1,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point C
+18579,12/3/2019 12:00:00 AM,121.24,1,37.2,49.3,2,?,-,Mitsui QC21,Transformer 150KVA (S/N: A1T68655T602-1) (11kV/415V),High Voltage side Point C
+18580,23/8/2017 12:00:00 AM,598.65,7,34.3,52.6,10,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18580,11/7/2018 12:00:00 AM,445.59,8,31.3,67.1,15,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18580,14/3/2019 12:00:00 AM,285.68,5,34.3,54.6,3,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18581,23/8/2017 12:00:00 AM,442.1,5,34.3,52.6,10,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18581,11/7/2018 12:00:00 AM,445.15,9,31.3,67.1,15,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18581,14/3/2019 12:00:00 AM,459.66,3,34.3,54.6,3,?,-,Mitsui QC22,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18582,23/8/2017 12:00:00 AM,829.88,9,34.3,52.6,10,?,-,Mitsui QC22,Panel 2 - Incoming Panel,Top
+18583,23/8/2017 12:00:00 AM,249.87,3,34.3,52.6,10,?,-,Mitsui QC22,Panel 2 - Incoming Panel,Bottom
+18584,23/8/2017 12:00:00 AM,388.9,3,34.3,52.6,5,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point A
+18584,11/7/2018 12:00:00 AM,407.11,5,31.3,67.1,12,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point A
+18584,14/3/2019 12:00:00 AM,350.32,2,34.3,54.6,2,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point A
+18585,23/8/2017 12:00:00 AM,610.05,7,34.3,52.6,5,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point B
+18585,11/7/2018 12:00:00 AM,516.4,3,31.3,67.1,12,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point B
+18585,14/3/2019 12:00:00 AM,270.73,2,34.3,54.6,2,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point B
+18586,23/8/2017 12:00:00 AM,489.85,6,34.3,52.6,5,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point C
+18586,11/7/2018 12:00:00 AM,480.28,6,31.3,67.1,12,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point C
+18586,14/3/2019 12:00:00 AM,129.56,7,34.3,54.6,2,?,-,Mitsui QC22,Transformer 1200KVA (S/N: A1T68655T601-2) (11kV/440V),High Voltage side Point C
+18587,23/8/2017 12:00:00 AM,486.34,5,34.3,52.6,5,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point A
+18587,11/7/2018 12:00:00 AM,583.57,1,31.3,67.1,3,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point A
+18587,14/3/2019 12:00:00 AM,206.15,3,34.3,54.6,1,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point A
+18588,23/8/2017 12:00:00 AM,378.32,5,34.3,52.6,5,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point B
+18588,11/7/2018 12:00:00 AM,509.49,2,31.3,67.1,3,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point B
+18588,14/3/2019 12:00:00 AM,244.57,2,34.3,54.6,1,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point B
+18589,23/8/2017 12:00:00 AM,333.84,6,34.3,52.6,5,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point C
+18589,11/7/2018 12:00:00 AM,467.26,2,31.3,67.1,3,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point C
+18589,14/3/2019 12:00:00 AM,187.25,2,34.3,54.6,1,?,-,Mitsui QC22,Transformer 150KVA (S/N: A1T68655T602-2) (11kV/415V),High Voltage side Point C
+18590,23/8/2017 12:00:00 AM,719.66,1,32.8,54.8,4,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18590,11/7/2018 12:00:00 AM,848.25,3,32.7,60.2,63,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18590,12/3/2019 12:00:00 AM,474.45,3,37.5,46.8,63,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18591,23/8/2017 12:00:00 AM,280.24,2,32.8,54.8,4,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18591,11/7/2018 12:00:00 AM,370.01,1,32.7,60.2,63,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18591,12/3/2019 12:00:00 AM,436.68,5,37.5,46.8,63,?,-,Mitsui QC23,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18592,23/8/2017 12:00:00 AM,279.31,1,32.8,54.8,4,?,-,Mitsui QC23,Panel 2 - Incoming Panel,Top
+18593,23/8/2017 12:00:00 AM,279.59,1,32.8,54.8,4,?,-,Mitsui QC23,Panel 2 - Incoming Panel,Bottom
+18594,23/8/2017 12:00:00 AM,244.51,4,32.8,54.8,2,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point A
+18594,11/7/2018 12:00:00 AM,1624.8,18,32.7,60.2,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point A
+18594,12/3/2019 12:00:00 AM,235.55,1,37.5,46.8,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point A
+18595,23/8/2017 12:00:00 AM,378.36,1,32.8,54.8,2,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point B
+18595,11/7/2018 12:00:00 AM,1313.07,10,32.7,60.2,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point B
+18595,12/3/2019 12:00:00 AM,249.69,2,37.5,46.8,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point B
+18596,23/8/2017 12:00:00 AM,326.8,2,32.8,54.8,2,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point C
+18596,11/7/2018 12:00:00 AM,1051.46,6,32.7,60.2,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point C
+18596,12/3/2019 12:00:00 AM,195.52,2,37.5,46.8,60,?,-,Mitsui QC23,Transformer 1200KVA (S/N: A1T68894T601-1) (11kV/440V),High Voltage side Point C
+18597,23/8/2017 12:00:00 AM,74.6,7,32.8,54.8,2,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point A
+18597,11/7/2018 12:00:00 AM,558.16,3,32.7,60.2,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point A
+18597,12/3/2019 12:00:00 AM,235.59,1,37.5,46.8,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point A
+18598,23/8/2017 12:00:00 AM,269.8,3,32.8,54.8,2,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point B
+18598,11/7/2018 12:00:00 AM,295.78,5,32.7,60.2,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point B
+18598,12/3/2019 12:00:00 AM,235.38,1,37.5,46.8,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point B
+18599,23/8/2017 12:00:00 AM,383.71,1,32.8,54.8,2,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point C
+18599,11/7/2018 12:00:00 AM,462.15,8,32.7,60.2,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point C
+18599,12/3/2019 12:00:00 AM,234.44,6,37.5,46.8,3,?,-,Mitsui QC23,Transformer 150KVA (S/N: A1T68894T602-1) (11kV/415V),High Voltage side Point C
+18600,23/8/2017 12:00:00 AM,244.69,4,31.2,62.1,4,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18600,12/7/2018 12:00:00 AM,412.77,2,30.6,69.4,23,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18600,12/3/2019 12:00:00 AM,121.9,3,38.5,42.4,23,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18601,23/8/2017 12:00:00 AM,400.16,2,31.2,62.1,4,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18601,12/7/2018 12:00:00 AM,1030.24,7,30.6,69.4,23,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18601,12/3/2019 12:00:00 AM,110.66,7,38.5,42.4,23,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18602,23/8/2017 12:00:00 AM,349.57,3,31.2,62.1,4,?,-,Mitsui QC24,Panel 2 - Incoming Panel,Top
+18603,23/8/2017 12:00:00 AM,188.61,7,31.2,62.1,4,?,-,Mitsui QC24,Panel 2 - Incoming Panel,Bottom
+18604,23/8/2017 12:00:00 AM,327.17,2,31.2,62.1,2,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point A
+18604,12/7/2018 12:00:00 AM,400.13,7,30.6,69.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point A
+18604,12/3/2019 12:00:00 AM,186.22,3,38.5,42.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point A
+18605,23/8/2017 12:00:00 AM,368.75,1,31.2,62.1,2,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point B
+18605,12/7/2018 12:00:00 AM,559.77,4,30.6,69.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point B
+18605,12/3/2019 12:00:00 AM,269.28,2,38.5,42.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point B
+18606,23/8/2017 12:00:00 AM,202.67,3,31.2,62.1,2,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point C
+18606,12/7/2018 12:00:00 AM,489.35,7,30.6,69.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point C
+18606,12/3/2019 12:00:00 AM,289.09,4,38.5,42.4,20,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point C
+18607,23/8/2017 12:00:00 AM,176.66,1,31.2,62.1,2,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point A
+18607,12/7/2018 12:00:00 AM,864.12,5,30.6,69.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point A
+18607,12/3/2019 12:00:00 AM,198.12,4,38.5,42.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point A
+18608,23/8/2017 12:00:00 AM,139.97,7,31.2,62.1,2,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point B
+18608,12/7/2018 12:00:00 AM,475.09,4,30.6,69.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point B
+18608,12/3/2019 12:00:00 AM,233.15,1,38.5,42.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point B
+18609,23/8/2017 12:00:00 AM,284.81,1,31.2,62.1,2,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point C
+18609,12/7/2018 12:00:00 AM,408.45,3,30.6,69.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point C
+18609,12/3/2019 12:00:00 AM,97.79,7,38.5,42.4,3,?,-,Mitsui QC24,Transformer 150KVA (S/N: A1T68894T602-2),High Voltage side Point C
+18610,23/8/2017 12:00:00 AM,176.89,4,31.5,60.1,5,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18610,10/7/2018 12:00:00 AM,880.34,5,31.7,68.1,63,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18610,12/3/2019 12:00:00 AM,262.4,9,36.7,50.1,63,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18611,23/8/2017 12:00:00 AM,307.96,6,31.5,60.1,5,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18611,10/7/2018 12:00:00 AM,778.96,3,31.7,68.1,63,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18611,12/3/2019 12:00:00 AM,233.3,4,36.7,50.1,63,?,-,Mitsui QC25,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18612,23/8/2017 12:00:00 AM,245.78,3,31.5,60.1,5,?,-,Mitsui QC25,Panel 2 - Incoming Panel,Top
+18613,23/8/2017 12:00:00 AM,273.54,5,31.5,60.1,5,?,-,Mitsui QC25,Panel 2 - Incoming Panel,Bottom
+18615,23/8/2017 12:00:00 AM,427.97,7,31.5,60.1,3,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point A
+18615,10/7/2018 12:00:00 AM,1072.72,3,31.7,68.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point A
+18615,12/3/2019 12:00:00 AM,243.09,4,36.7,50.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point A
+18616,23/8/2017 12:00:00 AM,577.38,5,31.5,60.1,3,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point B
+18616,10/7/2018 12:00:00 AM,1332.61,4,31.7,68.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point B
+18616,12/3/2019 12:00:00 AM,161.85,2,36.7,50.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point B
+18617,23/8/2017 12:00:00 AM,379.51,1,31.5,60.1,3,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point C
+18617,10/7/2018 12:00:00 AM,769.78,9,31.7,68.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point C
+18617,12/3/2019 12:00:00 AM,288.18,8,36.7,50.1,60,?,-,Mitsui QC25,Transformer 1200KVA (S/N: A1T24717T601-3) (11kV/440V),High Voltage side Point C
+18618,23/8/2017 12:00:00 AM,348.33,7,31.5,60.1,2,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point A
+18618,10/7/2018 12:00:00 AM,1832.19,3,31.7,68.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point A
+18618,12/3/2019 12:00:00 AM,405.37,8,36.7,50.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point A
+18619,23/8/2017 12:00:00 AM,353.58,4,31.5,60.1,2,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point B
+18619,10/7/2018 12:00:00 AM,720.46,7,31.7,68.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point B
+18619,12/3/2019 12:00:00 AM,470.64,2,36.7,50.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point B
+18620,23/8/2017 12:00:00 AM,224.09,2,31.5,60.1,2,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point C
+18620,10/7/2018 12:00:00 AM,591.13,1,31.7,68.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point C
+18620,12/3/2019 12:00:00 AM,320.22,8,36.7,50.1,3,?,-,Mitsui QC25,Transformer 150KVA (S/N: A1T24717T602-3) (11kV/415V),High Voltage side Point C
+18621,23/8/2017 12:00:00 AM,606.84,9,32.3,58.1,5,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18621,12/7/2018 12:00:00 AM,456.88,7,31.7,59.9,4,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18621,12/3/2019 12:00:00 AM,479.11,5,35.4,57.5,4,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18622,23/8/2017 12:00:00 AM,271.7,2,32.3,58.1,5,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18622,12/7/2018 12:00:00 AM,397.39,2,31.7,59.9,4,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18622,12/3/2019 12:00:00 AM,283.43,8,35.4,57.5,4,?,-,Mitsui QC27,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18623,23/8/2017 12:00:00 AM,339.16,2,32.3,58.1,5,?,-,Mitsui QC27,Panel 2 - Incoming Panel,Top
+18624,23/8/2017 12:00:00 AM,459.71,5,32.3,58.1,5,?,-,Mitsui QC27,Panel 2 - Incoming Panel,Bottom
+18625,23/8/2017 12:00:00 AM,1119.53,5,32.3,58.1,3,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point A
+18625,12/7/2018 12:00:00 AM,485.28,2,31.7,59.9,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point A
+18625,12/3/2019 12:00:00 AM,121.66,1,35.4,57.5,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point A
+18626,23/8/2017 12:00:00 AM,790.68,9,32.3,58.1,3,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point B
+18626,12/7/2018 12:00:00 AM,387.6,2,31.7,59.9,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point B
+18626,12/3/2019 12:00:00 AM,378.06,4,35.4,57.5,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point B
+18627,23/8/2017 12:00:00 AM,598.28,6,32.3,58.1,3,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point C
+18627,12/7/2018 12:00:00 AM,425.18,3,31.7,59.9,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point C
+18627,12/3/2019 12:00:00 AM,409.57,7,35.4,57.5,2,?,-,Mitsui QC27,Transformer 1200KVA (S/N: A1T24717T601-1) (11kV/440V),High Voltage side Point C
+18628,23/8/2017 12:00:00 AM,556.94,5,32.3,58.1,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point A
+18628,12/7/2018 12:00:00 AM,557.1,1,31.7,59.9,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point A
+18628,12/3/2019 12:00:00 AM,177.03,3,35.4,57.5,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point A
+18629,23/8/2017 12:00:00 AM,489.44,6,32.3,58.1,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point B
+18629,12/7/2018 12:00:00 AM,547.73,3,31.7,59.9,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point B
+18629,12/3/2019 12:00:00 AM,147.92,3,35.4,57.5,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point B
+18630,23/8/2017 12:00:00 AM,439.96,7,32.3,58.1,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point C
+18630,12/7/2018 12:00:00 AM,271.58,2,31.7,59.9,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point C
+18630,12/3/2019 12:00:00 AM,255.99,5,35.4,57.5,2,?,-,Mitsui QC27,Transformer 150KVA (S/N: A1T24717T602-1) (11kV/415V),High Voltage side Point C
+18631,23/8/2017 12:00:00 AM,450.29,3,32.2,58.2,4,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18631,10/7/2018 12:00:00 AM,491.46,7,31.7,75.9,25,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18631,13/3/2019 12:00:00 AM,1097.3,1,35.8,53.7,25,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18632,23/8/2017 12:00:00 AM,271.49,2,32.2,58.2,4,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18632,10/7/2018 12:00:00 AM,1740.36,2,31.7,75.9,25,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18632,13/3/2019 12:00:00 AM,205.11,6,35.8,53.7,25,?,-,Mitsui QC28,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18633,23/8/2017 12:00:00 AM,398.11,7,32.2,58.2,4,?,-,Mitsui QC28,Panel 2 - Incoming Panel,Top
+18634,23/8/2017 12:00:00 AM,447.2,5,32.2,58.2,4,?,-,Mitsui QC28,Panel 2 - Incoming Panel,Bottom
+18635,23/8/2017 12:00:00 AM,209.84,7,32.2,58.2,2,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point A
+18635,10/7/2018 12:00:00 AM,612.37,9,31.7,75.9,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point A
+18635,13/3/2019 12:00:00 AM,707.94,6,35.8,53.7,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point A
+18636,23/8/2017 12:00:00 AM,191.27,4,32.2,58.2,2,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point B
+18636,10/7/2018 12:00:00 AM,912.32,5,31.7,75.9,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point B
+18636,13/3/2019 12:00:00 AM,522.31,2,35.8,53.7,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point B
+18637,23/8/2017 12:00:00 AM,326.25,2,32.2,58.2,2,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point C
+18637,10/7/2018 12:00:00 AM,612.22,5,31.7,75.9,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point C
+18637,13/3/2019 12:00:00 AM,843.25,8,35.8,53.7,20,?,-,Mitsui QC28,Transformer 1200KVA (S/N: A1T24717T603-1) (11kV/440V),High Voltage side Point C
+18638,23/8/2017 12:00:00 AM,380.07,1,32.2,58.2,2,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point A
+18638,10/7/2018 12:00:00 AM,1126.36,7,31.7,75.9,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point A
+18638,13/3/2019 12:00:00 AM,318.93,6,35.8,53.7,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point A
+18639,23/8/2017 12:00:00 AM,487.71,1,32.2,58.2,2,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point B
+18639,10/7/2018 12:00:00 AM,728.59,6,31.7,75.9,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point B
+18639,13/3/2019 12:00:00 AM,293.38,3,35.8,53.7,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point B
+18640,23/8/2017 12:00:00 AM,273.72,5,32.2,58.2,2,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point C
+18640,10/7/2018 12:00:00 AM,539.91,6,31.7,75.9,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point C
+18640,13/3/2019 12:00:00 AM,752.88,8,35.8,53.7,5,?,-,Mitsui QC28,Transformer 150KVA (S/N: A1T24717T604-1) (11kV/415V),High Voltage side Point C
+18641,23/8/2017 12:00:00 AM,286.05,1,30.7,62.5,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18641,12/7/2018 12:00:00 AM,434.74,6,32.7,71.3,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18641,14/3/2019 12:00:00 AM,648.46,2,38.5,46.3,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Top
+18642,23/8/2017 12:00:00 AM,393.18,1,30.7,62.5,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18642,12/7/2018 12:00:00 AM,298.39,2,32.7,71.3,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18642,14/3/2019 12:00:00 AM,274.79,9,38.5,46.3,4,?,-,Mitsui QC29,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom
+18643,23/8/2017 12:00:00 AM,383.76,5,30.7,62.5,4,?,-,Mitsui QC29,Panel 2 - Incoming Panel,Top
+18644,23/8/2017 12:00:00 AM,348.24,3,30.7,62.5,4,?,-,Mitsui QC29,Panel 2 - Incoming Panel,Bottom
+18645,23/8/2017 12:00:00 AM,122.75,5,30.7,62.5,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point A
+18645,12/7/2018 12:00:00 AM,466.48,1,32.7,71.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point A
+18645,14/3/2019 12:00:00 AM,469.16,10,38.5,46.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point A
+18646,23/8/2017 12:00:00 AM,375.44,2,30.7,62.5,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point B
+18646,12/7/2018 12:00:00 AM,514.52,6,32.7,71.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point B
+18646,14/3/2019 12:00:00 AM,398.14,9,38.5,46.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point B
+18647,23/8/2017 12:00:00 AM,104.04,7,30.7,62.5,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point C
+18647,12/7/2018 12:00:00 AM,496.06,3,32.7,71.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point C
+18647,14/3/2019 12:00:00 AM,517.76,8,38.5,46.3,2,?,-,Mitsui QC29,Transformer 1200KVA (S/N: A1T24717T603-2) (11kV/440V),High Voltage side Point C
+18648,23/8/2017 12:00:00 AM,93.06,7,30.7,62.5,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point A
+18648,12/7/2018 12:00:00 AM,325.8,2,32.7,71.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point A
+18648,14/3/2019 12:00:00 AM,120.51,2,38.5,46.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point A
+18649,23/8/2017 12:00:00 AM,326.21,2,30.7,62.5,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point B
+18649,12/7/2018 12:00:00 AM,454.5,7,32.7,71.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point B
+18649,14/3/2019 12:00:00 AM,103.34,7,38.5,46.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point B
+18650,23/8/2017 12:00:00 AM,302.99,4,30.7,62.5,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point C
+18650,12/7/2018 12:00:00 AM,283.87,3,32.7,71.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point C
+18650,14/3/2019 12:00:00 AM,110.13,7,38.5,46.3,2,?,-,Mitsui QC29,Transformer 150KVA (S/N: A1T24717T604-2) (11kV/415V),High Voltage side Point C
+18651,24/8/2017 12:00:00 AM,706.98,6,29.2,66.6,80,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18651,11/7/2018 12:00:00 AM,488.41,5,32.3,56,5,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18651,14/3/2019 12:00:00 AM,298.71,5,33.2,57.2,3,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18652,24/8/2017 12:00:00 AM,468.4,3,29.2,66.6,80,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18652,11/7/2018 12:00:00 AM,664.52,5,32.3,56,5,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18652,14/3/2019 12:00:00 AM,572.17,1,33.2,57.2,3,?,-,Mitsui QC30,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18653,24/8/2017 12:00:00 AM,694.07,6,29.2,66.6,80,?,-,Mitsui QC30,Panel 2 - Incoming Panel,Top
+18654,24/8/2017 12:00:00 AM,842.8,8,29.2,66.6,80,?,-,Mitsui QC30,Panel 2 - Incoming Panel,Bottom
+18655,24/8/2017 12:00:00 AM,883.03,5,29.2,66.6,80,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point A
+18655,11/7/2018 12:00:00 AM,381.16,4,32.3,56,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point A
+18655,14/3/2019 12:00:00 AM,486.48,2,33.2,57.2,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point A
+18656,24/8/2017 12:00:00 AM,1183.83,6,29.2,66.6,80,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point B
+18656,11/7/2018 12:00:00 AM,427.42,5,32.3,56,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point B
+18656,14/3/2019 12:00:00 AM,351.3,6,33.2,57.2,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point B
+18657,24/8/2017 12:00:00 AM,1114.59,10,29.2,66.6,80,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point C
+18657,11/7/2018 12:00:00 AM,374.64,4,32.3,56,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point C
+18657,14/3/2019 12:00:00 AM,295.67,2,33.2,57.2,2,?,-,Mitsui QC30,Transformer 1200KVA (S/N: A1T247171601-4) (11kV/440V),High Voltage side Point C
+18658,24/8/2017 12:00:00 AM,707.49,2,29.2,66.6,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point A
+18658,11/7/2018 12:00:00 AM,445.77,3,32.3,56,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point A
+18658,14/3/2019 12:00:00 AM,314.72,3,33.2,57.2,1,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point A
+18659,24/8/2017 12:00:00 AM,810.09,5,29.2,66.6,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point B
+18659,11/7/2018 12:00:00 AM,390.1,1,32.3,56,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point B
+18659,14/3/2019 12:00:00 AM,350.39,5,33.2,57.2,1,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point B
+18660,24/8/2017 12:00:00 AM,435.5,2,29.2,66.6,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point C
+18660,11/7/2018 12:00:00 AM,477.87,2,32.3,56,3,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point C
+18660,14/3/2019 12:00:00 AM,367.54,3,33.2,57.2,1,?,-,Mitsui QC30,Transformer 150KVA (S/N: A1T247171602-4) (11kV/415V),High Voltage side Point C
+18661,24/8/2017 12:00:00 AM,727.51,7,29.4,67.5,40,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18661,11/7/2018 12:00:00 AM,379.28,1,33.5,57.4,4,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18661,12/3/2019 12:00:00 AM,2607.56,6,36.5,51.7,4,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18662,24/8/2017 12:00:00 AM,321.3,5,29.4,67.5,40,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18662,11/7/2018 12:00:00 AM,381.54,2,33.5,57.4,4,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18662,12/3/2019 12:00:00 AM,2501.41,10,36.5,51.7,4,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18663,24/8/2017 12:00:00 AM,253.8,5,29.4,67.5,40,?,-,Mitsui QC31,Panel 2 - Incoming Panel,Top
+18664,24/8/2017 12:00:00 AM,409.81,1,29.4,67.5,40,?,-,Mitsui QC31,Panel 2 - Incoming Panel,Bottom
+18665,24/8/2017 12:00:00 AM,464.48,1,29.4,67.5,40,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point A
+18665,11/7/2018 12:00:00 AM,385.49,2,33.5,57.4,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point A
+18665,12/3/2019 12:00:00 AM,1129.54,6,36.5,51.7,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point A
+18666,24/8/2017 12:00:00 AM,1589.08,4,29.4,67.5,40,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point B
+18666,11/7/2018 12:00:00 AM,435.54,2,33.5,57.4,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point B
+18666,12/3/2019 12:00:00 AM,786.57,12,36.5,51.7,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point B
+18667,24/8/2017 12:00:00 AM,1998.33,6,29.4,67.5,40,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point C
+18667,11/7/2018 12:00:00 AM,487.81,5,33.5,57.4,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point C
+18667,12/3/2019 12:00:00 AM,1450.06,4,36.5,51.7,2,?,-,Mitsui QC31,Transformer 1200KVA (S/N: A1DF3383T601-2) (11kV/440V),High Voltage side Point C
+18668,24/8/2017 12:00:00 AM,359.34,1,29.4,67.5,3,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point A
+18668,11/7/2018 12:00:00 AM,595.88,2,33.5,57.4,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point A
+18668,12/3/2019 12:00:00 AM,1159.72,9,36.5,51.7,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point A
+18669,24/8/2017 12:00:00 AM,2078.93,11,29.4,67.5,3,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point B
+18669,11/7/2018 12:00:00 AM,529.01,3,33.5,57.4,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point B
+18669,12/3/2019 12:00:00 AM,751.97,8,36.5,51.7,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point B
+18670,24/8/2017 12:00:00 AM,1581.24,5,29.4,67.5,3,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point C
+18670,11/7/2018 12:00:00 AM,313.02,3,33.5,57.4,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point C
+18670,12/3/2019 12:00:00 AM,906.49,3,36.5,51.7,2,?,-,Mitsui QC31,Transformer 150KVA (S/N: A1DF3383T602-2) (11kV/440V),High Voltage side Point C
+18671,24/8/2017 12:00:00 AM,409.97,1,30.9,62,50,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18671,11/7/2018 12:00:00 AM,453.29,6,35.2,52.6,65,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18671,12/3/2019 12:00:00 AM,820.75,8,37.3,48.7,65,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18672,24/8/2017 12:00:00 AM,906.52,6,30.9,62,50,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18672,11/7/2018 12:00:00 AM,431.68,2,35.2,52.6,65,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18672,12/3/2019 12:00:00 AM,767.2,8,37.3,48.7,65,?,-,Mitsui QC32,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18673,24/8/2017 12:00:00 AM,380.96,8,30.9,62,50,?,-,Mitsui QC32,Panel 2 - Incoming Panel,Top
+18674,24/8/2017 12:00:00 AM,230.62,4,30.9,62,50,?,-,Mitsui QC32,Panel 2 - Incoming Panel,Bottom
+18675,24/8/2017 12:00:00 AM,718.72,6,30.9,62,50,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point A
+18675,11/7/2018 12:00:00 AM,761.54,6,35.2,52.6,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point A
+18675,12/3/2019 12:00:00 AM,1026.76,7,37.3,48.7,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point A
+18676,24/8/2017 12:00:00 AM,386.57,3,30.9,62,50,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point B
+18676,11/7/2018 12:00:00 AM,1187.22,11,35.2,52.6,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point B
+18676,12/3/2019 12:00:00 AM,590.6,9,37.3,48.7,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point B
+18677,24/8/2017 12:00:00 AM,365,1,30.9,62,50,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point C
+18677,11/7/2018 12:00:00 AM,736.96,5,35.2,52.6,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point C
+18677,12/3/2019 12:00:00 AM,571.66,3,37.3,48.7,60,?,-,Mitsui QC32,Transformer 1200KVA (S/N: A1DF3383T601-1),High Voltage side Point C
+18678,24/8/2017 12:00:00 AM,516.21,10,30.9,62,3,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point A
+18678,11/7/2018 12:00:00 AM,379.64,2,35.2,52.6,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point A
+18678,12/3/2019 12:00:00 AM,719.69,5,37.3,48.7,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point A
+18679,24/8/2017 12:00:00 AM,442.34,9,30.9,62,3,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point B
+18679,11/7/2018 12:00:00 AM,1326.85,10,35.2,52.6,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point B
+18679,12/3/2019 12:00:00 AM,667.65,9,37.3,48.7,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point B
+18680,24/8/2017 12:00:00 AM,489.69,6,30.9,62,3,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point C
+18680,11/7/2018 12:00:00 AM,1692.18,17,35.2,52.6,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point C
+18680,12/3/2019 12:00:00 AM,506.73,4,37.3,48.7,5,?,-,Mitsui QC32,Transformer 150KVA (S/N: A1DF3383T602-1),High Voltage side Point C
+18681,24/8/2017 12:00:00 AM,490.13,6,32.1,60.2,80,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18681,11/7/2018 12:00:00 AM,463.37,5,35.6,51.8,84,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18681,12/3/2019 12:00:00 AM,890.16,10,35.1,52.9,54,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18682,24/8/2017 12:00:00 AM,370.84,3,32.1,60.2,80,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18682,11/7/2018 12:00:00 AM,342.22,3,35.6,51.8,84,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18682,12/3/2019 12:00:00 AM,527.18,5,35.1,52.9,54,?,-,Mitsui QC33,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18683,24/8/2017 12:00:00 AM,897.69,4,32.1,60.2,80,?,-,Mitsui QC33,Panel 2 - Incoming Panel,Top
+18684,24/8/2017 12:00:00 AM,1451.73,20,32.1,60.2,80,?,-,Mitsui QC33,Panel 2 - Incoming Panel,Bottom
+18685,24/8/2017 12:00:00 AM,759.88,11,32.1,60.2,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point A
+18685,11/7/2018 12:00:00 AM,754.88,9,35.6,51.8,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point A
+18685,12/3/2019 12:00:00 AM,1144.31,12,35.1,52.9,50,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point A
+18686,24/8/2017 12:00:00 AM,770.45,7,32.1,60.2,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point B
+18686,11/7/2018 12:00:00 AM,831.55,7,35.6,51.8,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point B
+18686,12/3/2019 12:00:00 AM,1243.83,7,35.1,52.9,50,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point B
+18687,24/8/2017 12:00:00 AM,636.58,3,32.1,60.2,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point C
+18687,11/7/2018 12:00:00 AM,664.64,10,35.6,51.8,80,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point C
+18687,12/3/2019 12:00:00 AM,1008.42,10,35.1,52.9,50,?,-,Mitsui QC33,Transformer 1200KVA (S/N: A1DF3393T601-2),High Voltage side Point C
+18688,24/8/2017 12:00:00 AM,585.97,6,32.1,60.2,5,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point A
+18688,11/7/2018 12:00:00 AM,640.49,8,35.6,51.8,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point A
+18688,12/3/2019 12:00:00 AM,483.34,7,35.1,52.9,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point A
+18689,24/8/2017 12:00:00 AM,726.39,11,32.1,60.2,5,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point B
+18689,11/7/2018 12:00:00 AM,328.85,2,35.6,51.8,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point B
+18689,12/3/2019 12:00:00 AM,430.49,13,35.1,52.9,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point B
+18690,24/8/2017 12:00:00 AM,708.07,5,32.1,60.2,5,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point C
+18690,11/7/2018 12:00:00 AM,624.96,4,35.6,51.8,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point C
+18690,12/3/2019 12:00:00 AM,308.63,12,35.1,52.9,4,?,-,Mitsui QC33,Transformer 150KVA (S/N: A1DF3393T602-2),High Voltage side Point C
+18691,24/8/2017 12:00:00 AM,534.05,6,32.2,59.3,70,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18691,11/7/2018 12:00:00 AM,887.42,9,34.8,53.8,84,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18691,12/3/2019 12:00:00 AM,811.41,2,37.1,50.1,63,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18692,24/8/2017 12:00:00 AM,628.1,7,32.2,59.3,70,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18692,11/7/2018 12:00:00 AM,1232.89,4,34.8,53.8,84,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18692,12/3/2019 12:00:00 AM,423.48,5,37.1,50.1,63,?,-,Mitsui QC34,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18693,24/8/2017 12:00:00 AM,1077.17,8,32.2,59.3,70,?,-,Mitsui QC34,Panel 2 - Incoming Panel,Top
+18694,24/8/2017 12:00:00 AM,525.97,7,32.2,59.3,70,?,-,Mitsui QC34,Panel 2 - Incoming Panel,Bottom
+18695,24/8/2017 12:00:00 AM,815.18,5,32.2,59.3,70,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point A
+18695,11/7/2018 12:00:00 AM,852.43,9,34.8,53.8,80,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point A
+18695,12/3/2019 12:00:00 AM,499.83,6,37.1,50.1,60,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point A
+18696,24/8/2017 12:00:00 AM,815.7,6,32.2,59.3,70,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point B
+18696,11/7/2018 12:00:00 AM,1164.24,5,34.8,53.8,80,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point B
+18696,12/3/2019 12:00:00 AM,413.65,4,37.1,50.1,60,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point B
+18697,24/8/2017 12:00:00 AM,1078.05,10,32.2,59.3,70,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point C
+18697,11/7/2018 12:00:00 AM,768.57,9,34.8,53.8,80,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point C
+18697,12/3/2019 12:00:00 AM,671.62,8,37.1,50.1,60,?,-,Mitsui QC34,Transformer 1200KVA (S/N: A1DF3393T601-1),High Voltage side Point C
+18698,24/8/2017 12:00:00 AM,750.68,10,32.2,59.3,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point A
+18698,11/7/2018 12:00:00 AM,1385.73,7,34.8,53.8,4,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point A
+18698,12/3/2019 12:00:00 AM,588.95,7,37.1,50.1,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point A
+18699,24/8/2017 12:00:00 AM,881.92,10,32.2,59.3,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point B
+18699,11/7/2018 12:00:00 AM,1856.24,9,34.8,53.8,4,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point B
+18699,12/3/2019 12:00:00 AM,306.48,6,37.1,50.1,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point B
+18700,24/8/2017 12:00:00 AM,876.63,11,32.2,59.3,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point C
+18700,11/7/2018 12:00:00 AM,1581.93,10,34.8,53.8,4,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point C
+18700,12/3/2019 12:00:00 AM,327.92,3,37.1,50.1,3,?,-,Mitsui QC34,Transformer 150KVA (S/N: A1DF3393T602-1),High Voltage side Point C
+18701,24/8/2017 12:00:00 AM,1306.07,2,33.1,60.1,70,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18701,12/7/2018 12:00:00 AM,1637.85,18,31.5,66.2,44,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18701,13/3/2019 12:00:00 AM,394.48,2,34.3,57.6,44,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18702,24/8/2017 12:00:00 AM,843.03,3,33.1,60.1,70,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18702,12/7/2018 12:00:00 AM,489.76,6,31.5,66.2,44,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18702,13/3/2019 12:00:00 AM,231.41,1,34.3,57.6,44,?,-,Mitsui QC35,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18703,24/8/2017 12:00:00 AM,790.28,2,33.1,60.1,70,?,-,Mitsui QC35,Panel 2 - Incoming Panel,Top
+18704,24/8/2017 12:00:00 AM,1165.54,13,33.1,60.1,70,?,-,Mitsui QC35,Panel 2 - Incoming Panel,Bottom
+18705,24/8/2017 12:00:00 AM,1028.46,11,33.1,60.1,70,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point A
+18705,12/7/2018 12:00:00 AM,444.04,6,31.5,66.2,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point A
+18705,13/3/2019 12:00:00 AM,256.87,3,34.3,57.6,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point A
+18706,24/8/2017 12:00:00 AM,1398.91,12,33.1,60.1,70,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point B
+18706,12/7/2018 12:00:00 AM,513.55,2,31.5,66.2,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point B
+18706,13/3/2019 12:00:00 AM,1951.22,28,34.3,57.6,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point B
+18707,24/8/2017 12:00:00 AM,737.33,11,33.1,60.1,70,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point C
+18707,12/7/2018 12:00:00 AM,471.76,6,31.5,66.2,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point C
+18707,13/3/2019 12:00:00 AM,2456.58,11,34.3,57.6,40,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point C
+18708,24/8/2017 12:00:00 AM,715.15,6,33.1,60.1,3,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point A
+18708,12/7/2018 12:00:00 AM,462.44,4,31.5,66.2,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point A
+18708,13/3/2019 12:00:00 AM,307.12,2,34.3,57.6,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point A
+18709,24/8/2017 12:00:00 AM,1055.62,6,33.1,60.1,3,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point B
+18709,12/7/2018 12:00:00 AM,534.26,3,31.5,66.2,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point B
+18709,13/3/2019 12:00:00 AM,269.7,4,34.3,57.6,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point B
+18710,24/8/2017 12:00:00 AM,950.21,41,33.1,60.1,3,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point C
+18710,12/7/2018 12:00:00 AM,332.22,5,31.5,66.2,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point C
+18710,13/3/2019 12:00:00 AM,231.5,2,34.3,57.6,4,?,-,Mitsui QC35,Transformer 150KVA (S/N: A1EH2661T002-1),High Voltage side Point C
+18711,24/8/2017 12:00:00 AM,1424.85,11,33.2,60.5,75,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18711,12/7/2018 12:00:00 AM,685.87,10,32.8,62.1,43,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18711,13/3/2019 12:00:00 AM,2428.14,5,34.7,60,43,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18712,24/8/2017 12:00:00 AM,653.01,8,33.2,60.5,75,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18712,12/7/2018 12:00:00 AM,596.51,4,32.8,62.1,43,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18712,13/3/2019 12:00:00 AM,2338.15,4,34.7,60,43,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18713,24/8/2017 12:00:00 AM,652.33,4,33.2,60.5,75,?,-,Mitsui QC36,Panel 2 - Incoming Panel,Top
+18714,24/8/2017 12:00:00 AM,638.63,8,33.2,60.5,75,?,-,Mitsui QC36,Panel 2 - Incoming Panel,Bottom
+18715,24/8/2017 12:00:00 AM,1417.01,15,33.2,60.5,75,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point A
+18715,12/7/2018 12:00:00 AM,1520.47,22,32.8,62.1,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point A
+18715,13/3/2019 12:00:00 AM,1934.28,21,34.7,60,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point A
+18716,24/8/2017 12:00:00 AM,864.62,11,33.2,60.5,75,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point B
+18716,12/7/2018 12:00:00 AM,1693.81,24,32.8,62.1,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point B
+18716,13/3/2019 12:00:00 AM,446.22,8,34.7,60,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point B
+18717,24/8/2017 12:00:00 AM,1033.62,7,33.2,60.5,75,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point C
+18717,12/7/2018 12:00:00 AM,1713.29,23,32.8,62.1,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point C
+18717,13/3/2019 12:00:00 AM,378.92,7,34.7,60,40,?,-,Mitsui QC36,Transformer 1200KVA (S/N: A1EH2664T001-1),High Voltage side Point C
+18718,24/8/2017 12:00:00 AM,1148.83,18,33.2,60.5,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point A
+18718,12/7/2018 12:00:00 AM,1544.85,20,32.8,62.1,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point A
+18718,13/3/2019 12:00:00 AM,865.68,14,34.7,60,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point A
+18719,24/8/2017 12:00:00 AM,1257.72,17,33.2,60.5,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point B
+18719,12/7/2018 12:00:00 AM,1229.23,20,32.8,62.1,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point B
+18719,13/3/2019 12:00:00 AM,991.01,17,34.7,60,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point B
+18720,24/8/2017 12:00:00 AM,2205.33,35,33.2,60.5,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point C
+18720,12/7/2018 12:00:00 AM,1273.44,11,32.8,62.1,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point C
+18720,13/3/2019 12:00:00 AM,1255.38,27,34.7,60,3,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point C
+18721,24/8/2017 12:00:00 AM,639.14,7,32.1,60,75,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18721,12/7/2018 12:00:00 AM,992.42,6,32.8,59.2,43,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18721,13/3/2019 12:00:00 AM,392.09,5,36.9,52.1,43,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18722,24/8/2017 12:00:00 AM,627.87,7,32.1,60,75,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18722,12/7/2018 12:00:00 AM,435.17,4,32.8,59.2,43,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18722,13/3/2019 12:00:00 AM,1257.68,5,36.9,52.1,43,?,-,Mitsui QC37,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18723,24/8/2017 12:00:00 AM,408.01,4,32.1,60,75,?,-,Mitsui QC37,Panel 2 - Incoming Panel,Top
+18724,24/8/2017 12:00:00 AM,555.28,5,32.1,60,75,?,-,Mitsui QC37,Panel 2 - Incoming Panel,Bottom
+18725,24/8/2017 12:00:00 AM,752.08,5,32.1,60,75,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point A
+18725,12/7/2018 12:00:00 AM,981.42,7,32.8,59.2,40,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point A
+18725,13/3/2019 12:00:00 AM,880.97,1,36.9,52.1,39,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point A
+18726,24/8/2017 12:00:00 AM,1016.57,6,32.1,60,75,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point B
+18726,12/7/2018 12:00:00 AM,633.53,6,32.8,59.2,40,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point B
+18726,13/3/2019 12:00:00 AM,1647.91,9,36.9,52.1,39,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point B
+18727,24/8/2017 12:00:00 AM,705.73,4,32.1,60,75,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point C
+18727,12/7/2018 12:00:00 AM,525.45,6,32.8,59.2,40,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point C
+18727,13/3/2019 12:00:00 AM,1436.92,8,36.9,52.1,39,?,-,Mitsui QC37,Transformer 1200KVA (S/N: A1EH2664T001-2),High Voltage side Point C
+18728,24/8/2017 12:00:00 AM,2089.99,10,32.1,60,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point A
+18728,12/7/2018 12:00:00 AM,2537,12,32.8,59.2,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point A
+18728,13/3/2019 12:00:00 AM,199.99,2,36.9,52.1,4,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point A
+18729,24/8/2017 12:00:00 AM,2342.25,5,32.1,60,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point B
+18729,12/7/2018 12:00:00 AM,1577.48,12,32.8,59.2,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point B
+18729,13/3/2019 12:00:00 AM,320.91,5,36.9,52.1,4,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point B
+18730,24/8/2017 12:00:00 AM,1986.31,7,32.1,60,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C
+18730,12/7/2018 12:00:00 AM,2798.27,8,32.8,59.2,3,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C
+18730,13/3/2019 12:00:00 AM,1755.22,6,36.9,52.1,4,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C
+18731,24/8/2017 12:00:00 AM,890.13,4,31.4,63.4,60,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18731,12/7/2018 12:00:00 AM,449.23,3,31.1,64.5,4,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18731,13/3/2019 12:00:00 AM,1122,3,38.4,48,4,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18732,24/8/2017 12:00:00 AM,303.45,3,31.4,63.4,60,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18732,12/7/2018 12:00:00 AM,611.02,1,31.1,64.5,4,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18732,13/3/2019 12:00:00 AM,1074.18,4,38.4,48,4,?,-,Mitsui QC38,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18733,24/8/2017 12:00:00 AM,964.51,5,31.4,63.4,60,?,-,Mitsui QC38,Panel 2 - Incoming Panel,Top
+18734,24/8/2017 12:00:00 AM,1157.4,6,31.4,63.4,60,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point A
+18734,12/7/2018 12:00:00 AM,3079.26,5,31.1,64.5,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point A
+18734,13/3/2019 12:00:00 AM,1842.86,6,38.4,48,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point A
+18735,24/8/2017 12:00:00 AM,1008.31,13,31.4,63.4,60,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point B
+18735,12/7/2018 12:00:00 AM,435.38,4,31.1,64.5,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point B
+18735,13/3/2019 12:00:00 AM,1625.37,13,38.4,48,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point B
+18736,24/8/2017 12:00:00 AM,918.32,19,31.4,63.4,60,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point C
+18736,12/7/2018 12:00:00 AM,711.63,6,31.1,64.5,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point C
+18736,13/3/2019 12:00:00 AM,2600.03,9,38.4,48,2,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point C
+18737,24/8/2017 12:00:00 AM,2525.91,11,31.4,63.4,3,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point A
+18737,12/7/2018 12:00:00 AM,1393.51,7,31.1,64.5,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point A
+18737,13/3/2019 12:00:00 AM,1904.64,9,38.4,48,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point A
+18738,24/8/2017 12:00:00 AM,1903.8,7,31.4,63.4,3,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point B
+18738,12/7/2018 12:00:00 AM,815.12,2,31.1,64.5,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point B
+18738,13/3/2019 12:00:00 AM,969.26,8,38.4,48,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point B
+18739,24/8/2017 12:00:00 AM,2867.7,7,31.4,63.4,3,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point C
+18739,12/7/2018 12:00:00 AM,797.85,6,31.1,64.5,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point C
+18739,13/3/2019 12:00:00 AM,372.84,7,38.4,48,2,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point C
+18740,24/8/2017 12:00:00 AM,391.4,1,32.3,61.7,4,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18740,12/7/2018 12:00:00 AM,498.22,1,32.2,66.4,5,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18740,13/3/2019 12:00:00 AM,982.69,7,39,42.9,5,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18741,24/8/2017 12:00:00 AM,341.35,3,32.3,61.7,4,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18741,12/7/2018 12:00:00 AM,543.17,2,32.2,66.4,5,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18741,13/3/2019 12:00:00 AM,690.06,3,39,42.9,5,?,-,Mitsui QC39,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18742,24/8/2017 12:00:00 AM,543.4,2,32.3,61.7,4,?,-,Mitsui QC39,Panel 2 - Incoming Panel,Top
+18743,24/8/2017 12:00:00 AM,362.57,6,32.3,61.7,4,?,-,Mitsui QC39,Panel 2 - Incoming Panel,Bottom
+18744,24/8/2017 12:00:00 AM,355.33,4,32.3,61.7,2,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point A
+18744,12/7/2018 12:00:00 AM,536.96,4,32.2,66.4,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point A
+18744,13/3/2019 12:00:00 AM,704.74,7,39,42.9,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point A
+18745,24/8/2017 12:00:00 AM,422.48,5,32.3,61.7,2,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point B
+18745,12/7/2018 12:00:00 AM,411.07,3,32.2,66.4,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point B
+18745,13/3/2019 12:00:00 AM,662.47,8,39,42.9,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point B
+18746,24/8/2017 12:00:00 AM,526.13,3,32.3,61.7,2,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point C
+18746,12/7/2018 12:00:00 AM,679.54,4,32.2,66.4,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point C
+18746,13/3/2019 12:00:00 AM,991,6,39,42.9,3,?,-,Mitsui QC39,Transformer 1200KVA (S/N: A1FM9203T001),High Voltage side Point C
+18747,24/8/2017 12:00:00 AM,307,3,32.3,61.7,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point A
+18747,12/7/2018 12:00:00 AM,367.54,1,32.2,66.4,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point A
+18747,13/3/2019 12:00:00 AM,414.87,7,39,42.9,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point A
+18748,24/8/2017 12:00:00 AM,382.05,2,32.3,61.7,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point B
+18748,12/7/2018 12:00:00 AM,394.38,1,32.2,66.4,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point B
+18748,13/3/2019 12:00:00 AM,344.57,8,39,42.9,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point B
+18749,24/8/2017 12:00:00 AM,382.54,1,32.3,61.7,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point C
+18749,12/7/2018 12:00:00 AM,484.87,6,32.2,66.4,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point C
+18749,13/3/2019 12:00:00 AM,461.66,12,39,42.9,2,?,-,Mitsui QC39,Transformer 150KVA (S/N: A1FM9203T002),High Voltage side Point C
+18750,24/8/2017 12:00:00 AM,787.06,10,31.8,61.6,20,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18750,12/7/2018 12:00:00 AM,383.23,3,31.8,64.2,4,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18750,13/3/2019 12:00:00 AM,639.54,5,39.1,43.3,4,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18751,24/8/2017 12:00:00 AM,964.18,7,31.8,61.6,20,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18751,12/7/2018 12:00:00 AM,374.33,1,31.8,64.2,4,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18751,13/3/2019 12:00:00 AM,1867.76,3,39.1,43.3,4,?,-,Mitsui QC40,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18752,24/8/2017 12:00:00 AM,703.75,7,31.8,61.6,20,?,-,Mitsui QC40,Panel 2 - Incoming Panel,Top
+18753,24/8/2017 12:00:00 AM,594.94,8,31.8,61.6,20,?,-,Mitsui QC40,Panel 2 - Incoming Panel,Bottom
+18754,24/8/2017 12:00:00 AM,390.9,1,31.8,61.6,20,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point A
+18754,12/7/2018 12:00:00 AM,285.26,1,31.8,64.2,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point A
+18754,13/3/2019 12:00:00 AM,402.27,7,39.1,43.3,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point A
+18755,24/8/2017 12:00:00 AM,485.99,7,31.8,61.6,20,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point B
+18755,12/7/2018 12:00:00 AM,413.94,4,31.8,64.2,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point B
+18755,13/3/2019 12:00:00 AM,475.56,6,39.1,43.3,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point B
+18756,24/8/2017 12:00:00 AM,492.73,3,31.8,61.6,20,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point C
+18756,12/7/2018 12:00:00 AM,475.75,1,31.8,64.2,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point C
+18756,13/3/2019 12:00:00 AM,512.57,7,39.1,43.3,2,?,-,Mitsui QC40,Transformer 1200KVA (S/N: A1FM9238T001),High Voltage side Point C
+18757,24/8/2017 12:00:00 AM,186.55,5,31.8,61.6,3,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point A
+18757,12/7/2018 12:00:00 AM,305.07,3,31.8,64.2,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point A
+18757,13/3/2019 12:00:00 AM,221.86,3,39.1,43.3,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point A
+18758,24/8/2017 12:00:00 AM,349.65,3,31.8,61.6,3,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point B
+18758,12/7/2018 12:00:00 AM,365.81,6,31.8,64.2,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point B
+18758,13/3/2019 12:00:00 AM,269.84,2,39.1,43.3,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point B
+18759,24/8/2017 12:00:00 AM,279.82,4,31.8,61.6,3,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point C
+18759,12/7/2018 12:00:00 AM,284.02,1,31.8,64.2,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point C
+18759,13/3/2019 12:00:00 AM,248.9,7,39.1,43.3,2,?,-,Mitsui QC40,Transformer 150KVA (S/N: A1FM9238T002),High Voltage side Point C
+18761,24/8/2017 12:00:00 AM,692.95,8,31.7,61,4,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18761,12/7/2018 12:00:00 AM,271.7,2,32.8,63.1,4,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18761,14/3/2019 12:00:00 AM,401.32,3,35.7,49.5,33,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18762,24/8/2017 12:00:00 AM,445.96,4,31.7,61,4,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18762,12/7/2018 12:00:00 AM,278.67,1,32.8,63.1,4,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18762,14/3/2019 12:00:00 AM,463.58,3,35.7,49.5,33,?,-,Mitsui QC41,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18763,24/8/2017 12:00:00 AM,598,2,31.7,61,4,?,-,Mitsui QC41,Panel 2 - Incoming Panel,Top
+18764,24/8/2017 12:00:00 AM,387.92,3,31.7,61,4,?,-,Mitsui QC41,Panel 2 - Incoming Panel,Bottom
+18765,24/8/2017 12:00:00 AM,583.09,2,31.7,61,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point A
+18765,12/7/2018 12:00:00 AM,291.22,7,32.8,63.1,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point A
+18765,14/3/2019 12:00:00 AM,701.2,3,35.7,49.5,30,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point A
+18766,24/8/2017 12:00:00 AM,521.54,3,31.7,61,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point B
+18766,12/7/2018 12:00:00 AM,448.29,5,32.8,63.1,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point B
+18766,14/3/2019 12:00:00 AM,723.49,7,35.7,49.5,30,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point B
+18767,24/8/2017 12:00:00 AM,666.52,3,31.7,61,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point C
+18767,12/7/2018 12:00:00 AM,504.98,1,32.8,63.1,2,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point C
+18767,14/3/2019 12:00:00 AM,703.4,2,35.7,49.5,30,?,-,Mitsui QC41,Transformer 1200KVA (S/N: A1FM9241T001),High Voltage side Point C
+18768,24/8/2017 12:00:00 AM,271.75,4,31.7,61,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point A
+18768,12/7/2018 12:00:00 AM,431.98,4,32.8,63.1,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point A
+18768,14/3/2019 12:00:00 AM,329.75,3,35.7,49.5,3,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point A
+18769,24/8/2017 12:00:00 AM,585.55,1,31.7,61,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point B
+18769,12/7/2018 12:00:00 AM,251.01,5,32.8,63.1,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point B
+18769,14/3/2019 12:00:00 AM,309.55,1,35.7,49.5,3,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point B
+18770,24/8/2017 12:00:00 AM,543.47,2,31.7,61,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point C
+18770,12/7/2018 12:00:00 AM,296.67,6,32.8,63.1,2,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point C
+18770,14/3/2019 12:00:00 AM,216.04,2,35.7,49.5,3,?,-,Mitsui QC41,Transformer 150KVA (S/N: A1FM9241T002),High Voltage side Point C
+18771,24/8/2017 12:00:00 AM,567.7,8,31.1,62.7,4,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18771,12/7/2018 12:00:00 AM,415.42,4,32.1,59.8,4,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18771,14/3/2019 12:00:00 AM,594.87,8,34.3,54.6,1,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18772,24/8/2017 12:00:00 AM,388.51,1,31.1,62.7,4,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18772,12/7/2018 12:00:00 AM,274.1,3,32.1,59.8,4,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18772,14/3/2019 12:00:00 AM,323.69,4,34.3,54.6,1,?,-,Mitsui QC42,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18773,24/8/2017 12:00:00 AM,374.32,1,31.1,62.7,4,?,-,Mitsui QC42,Panel 2 - Incoming Panel,Top
+18774,24/8/2017 12:00:00 AM,431.55,2,31.1,62.7,4,?,-,Mitsui QC42,Panel 2 - Incoming Panel,Bottom
+18775,24/8/2017 12:00:00 AM,380.48,1,31.1,62.7,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point A
+18775,12/7/2018 12:00:00 AM,468.19,4,32.1,59.8,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point A
+18775,14/3/2019 12:00:00 AM,449.65,1,34.3,54.6,0,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point A
+18776,24/8/2017 12:00:00 AM,434.1,2,31.1,62.7,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point B
+18776,12/7/2018 12:00:00 AM,364.64,3,32.1,59.8,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point B
+18776,14/3/2019 12:00:00 AM,246.92,6,34.3,54.6,0,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point B
+18777,24/8/2017 12:00:00 AM,381.21,1,31.1,62.7,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point C
+18777,12/7/2018 12:00:00 AM,428.2,5,32.1,59.8,2,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point C
+18777,14/3/2019 12:00:00 AM,365.23,3,34.3,54.6,0,?,-,Mitsui QC42,Transformer 1200KVA (S/N: A1FM9250T001),High Voltage side Point C
+18778,24/8/2017 12:00:00 AM,272.43,1,31.1,62.7,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point A
+18778,12/7/2018 12:00:00 AM,282.1,1,32.1,59.8,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point A
+18778,14/3/2019 12:00:00 AM,233.16,1,34.3,54.6,1,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point A
+18779,24/8/2017 12:00:00 AM,325.84,2,31.1,62.7,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point B
+18779,12/7/2018 12:00:00 AM,311.44,3,32.1,59.8,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point B
+18779,14/3/2019 12:00:00 AM,251.94,6,34.3,54.6,1,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point B
+18780,24/8/2017 12:00:00 AM,381.21,2,31.1,62.7,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point C
+18780,12/7/2018 12:00:00 AM,408.37,4,32.1,59.8,2,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point C
+18780,14/3/2019 12:00:00 AM,261.74,4,34.3,54.6,1,?,-,Mitsui QC42,Transformer 150KVA (S/N: A1FM9250T002),High Voltage side Point C
+18781,24/8/2017 12:00:00 AM,380.97,4,31.4,63.3,4,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18781,12/7/2018 12:00:00 AM,713.34,2,35.5,64,23,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18781,14/3/2019 12:00:00 AM,1064.66,1,33.8,52.5,1,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18782,24/8/2017 12:00:00 AM,269.46,3,31.4,63.3,4,?,-,Mitsui QC43,Panel 2 - Incoming Panel,Top
+18783,24/8/2017 12:00:00 AM,299.02,7,31.4,63.3,4,?,-,Mitsui QC43,Panel 2 - Incoming Panel,Bottom
+18784,24/8/2017 12:00:00 AM,488.8,2,31.4,63.3,2,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point A
+18784,12/7/2018 12:00:00 AM,380.47,6,35.5,64,20,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point A
+18784,14/3/2019 12:00:00 AM,215.95,2,33.8,52.5,0,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point A
+18785,24/8/2017 12:00:00 AM,353.62,7,31.4,63.3,2,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point B
+18785,12/7/2018 12:00:00 AM,550.69,5,35.5,64,20,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point B
+18785,14/3/2019 12:00:00 AM,215.02,2,33.8,52.5,0,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point B
+18786,24/8/2017 12:00:00 AM,455.61,5,31.4,63.3,2,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point C
+18786,12/7/2018 12:00:00 AM,362.75,6,35.5,64,20,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point C
+18786,14/3/2019 12:00:00 AM,278.01,4,33.8,52.5,0,?,-,Mitsui QC43,Transformer 1200KVA (S/N: A1FM9274T001),High Voltage side Point C
+18787,24/8/2017 12:00:00 AM,413.98,3,31.4,63.3,2,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point A
+18787,12/7/2018 12:00:00 AM,1016.44,7,35.5,64,3,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point A
+18787,14/3/2019 12:00:00 AM,119.85,5,33.8,52.5,1,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point A
+18788,24/8/2017 12:00:00 AM,262.3,1,31.4,63.3,2,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point B
+18788,12/7/2018 12:00:00 AM,431.2,5,35.5,64,3,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point B
+18788,14/3/2019 12:00:00 AM,161.85,2,33.8,52.5,1,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point B
+18789,24/8/2017 12:00:00 AM,502.16,1,31.4,63.3,2,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point C
+18789,12/7/2018 12:00:00 AM,580.76,14,35.5,64,3,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point C
+18789,14/3/2019 12:00:00 AM,121.31,4,33.8,52.5,1,?,-,Mitsui QC43,Transformer 150KVA (S/N: A1FM9274T002),High Voltage side Point C
+18790,25/8/2017 12:00:00 AM,502.78,5,31.4,61,4,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18790,13/7/2018 12:00:00 AM,368.33,2,27.7,87.7,4,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18790,14/3/2019 12:00:00 AM,523.11,1,35.9,49.5,1,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18791,25/8/2017 12:00:00 AM,561.26,1,31.4,61,4,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18791,13/7/2018 12:00:00 AM,118.77,1,27.7,87.7,4,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18791,14/3/2019 12:00:00 AM,336.29,6,35.9,49.5,1,?,-,Mitsui QC44,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18792,25/8/2017 12:00:00 AM,536.71,3,31.4,61,4,?,-,Mitsui QC44,Panel 2 - Incoming Panel,Top
+18793,25/8/2017 12:00:00 AM,326.04,2,31.4,61,4,?,-,Mitsui QC44,Panel 2 - Incoming Panel,Bottom
+18794,25/8/2017 12:00:00 AM,592.51,5,31.4,61,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point A
+18794,13/7/2018 12:00:00 AM,414.46,5,27.7,87.7,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point A
+18794,14/3/2019 12:00:00 AM,286.42,2,35.9,49.5,0,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point A
+18795,25/8/2017 12:00:00 AM,697.14,3,31.4,61,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point B
+18795,13/7/2018 12:00:00 AM,411.04,9,27.7,87.7,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point B
+18795,14/3/2019 12:00:00 AM,262.59,5,35.9,49.5,0,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point B
+18796,25/8/2017 12:00:00 AM,786.37,1,31.4,61,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point C
+18796,13/7/2018 12:00:00 AM,326.49,2,27.7,87.7,2,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point C
+18796,14/3/2019 12:00:00 AM,270.4,2,35.9,49.5,0,?,-,Mitsui QC44,Transformer 1200KVA (S/N: A1FM92533T001),High Voltage side Point C
+18797,25/8/2017 12:00:00 AM,572.65,3,31.4,61,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point A
+18797,13/7/2018 12:00:00 AM,115.58,1,27.7,87.7,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point A
+18797,14/3/2019 12:00:00 AM,344.25,3,35.9,49.5,1,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point A
+18798,25/8/2017 12:00:00 AM,626.46,3,31.4,61,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point B
+18798,13/7/2018 12:00:00 AM,318.12,1,27.7,87.7,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point B
+18798,14/3/2019 12:00:00 AM,361.89,2,35.9,49.5,1,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point B
+18799,25/8/2017 12:00:00 AM,590.16,3,31.4,61,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point C
+18799,13/7/2018 12:00:00 AM,244.32,8,27.7,87.7,2,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point C
+18799,14/3/2019 12:00:00 AM,329.18,3,35.9,49.5,1,?,-,Mitsui QC44,Transformer 150KVA (S/N: A1FM92533T002),High Voltage side Point C
+18800,25/8/2017 12:00:00 AM,358.65,10,32.1,59.4,4,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18800,13/7/2018 12:00:00 AM,455.8,3,31.4,72.8,4,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18800,14/3/2019 12:00:00 AM,304.88,1,36.1,46.4,1,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18801,25/8/2017 12:00:00 AM,264.8,3,32.1,59.4,4,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18801,13/7/2018 12:00:00 AM,381.95,7,31.4,72.8,4,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18801,14/3/2019 12:00:00 AM,234.36,1,36.1,46.4,1,?,-,Mitsui QC45,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18802,25/8/2017 12:00:00 AM,245.68,5,32.1,59.4,4,?,-,Mitsui QC45,Panel 2 - Incoming Panel,Top
+18803,25/8/2017 12:00:00 AM,241.76,3,32.1,59.4,4,?,-,Mitsui QC45,Panel 2 - Incoming Panel,Bottom
+18804,25/8/2017 12:00:00 AM,386.4,3,32.1,59.4,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point A
+18804,13/7/2018 12:00:00 AM,300.61,9,31.4,72.8,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point A
+18804,14/3/2019 12:00:00 AM,254.58,2,36.1,46.4,0,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point A
+18805,25/8/2017 12:00:00 AM,280.55,5,32.1,59.4,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point B
+18805,13/7/2018 12:00:00 AM,330.61,4,31.4,72.8,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point B
+18805,14/3/2019 12:00:00 AM,185.23,3,36.1,46.4,0,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point B
+18806,25/8/2017 12:00:00 AM,380.18,2,32.1,59.4,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point C
+18806,13/7/2018 12:00:00 AM,256.67,3,31.4,72.8,2,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point C
+18806,14/3/2019 12:00:00 AM,130.3,7,36.1,46.4,0,?,-,Mitsui QC45,Transformer 1200KVA (S/N: A1FM9256T001),High Voltage side Point C
+18807,25/8/2017 12:00:00 AM,284.83,2,32.1,59.4,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point A
+18807,13/7/2018 12:00:00 AM,280.77,4,31.4,72.8,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point A
+18807,14/3/2019 12:00:00 AM,160.75,5,36.1,46.4,1,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point A
+18808,25/8/2017 12:00:00 AM,332.15,4,32.1,59.4,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point B
+18808,13/7/2018 12:00:00 AM,344.48,6,31.4,72.8,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point B
+18808,14/3/2019 12:00:00 AM,121.1,7,36.1,46.4,1,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point B
+18809,25/8/2017 12:00:00 AM,398.77,6,32.1,59.4,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point C
+18809,13/7/2018 12:00:00 AM,331.14,5,31.4,72.8,2,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point C
+18809,14/3/2019 12:00:00 AM,143,4,36.1,46.4,1,?,-,Mitsui QC45,Transformer 150KVA (S/N: A1FM9256T002),High Voltage side Point C
+18810,25/8/2017 12:00:00 AM,217.22,2,32.6,60.1,4,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18810,13/7/2018 12:00:00 AM,354.68,6,31.3,69.7,4,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18810,14/3/2019 12:00:00 AM,234.09,3,35.5,47.9,1,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18811,25/8/2017 12:00:00 AM,241.4,3,32.6,60.1,4,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18811,13/7/2018 12:00:00 AM,326.15,2,31.3,69.7,4,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18811,14/3/2019 12:00:00 AM,215.8,2,35.5,47.9,1,?,-,Mitsui QC46,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18812,25/8/2017 12:00:00 AM,180.42,2,32.6,60.1,4,?,-,Mitsui QC46,Panel 2 - Incoming Panel,Top
+18813,25/8/2017 12:00:00 AM,217.06,5,32.6,60.1,4,?,-,Mitsui QC46,Panel 2 - Incoming Panel,Bottom
+18814,25/8/2017 12:00:00 AM,88.16,7,32.6,60.1,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point A
+18814,13/7/2018 12:00:00 AM,509.19,10,31.3,69.7,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point A
+18814,14/3/2019 12:00:00 AM,258.45,3,35.5,47.9,0,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point A
+18815,25/8/2017 12:00:00 AM,67.11,1,32.6,60.1,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point B
+18815,13/7/2018 12:00:00 AM,543.83,8,31.3,69.7,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point B
+18815,14/3/2019 12:00:00 AM,305.73,6,35.5,47.9,0,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point B
+18816,25/8/2017 12:00:00 AM,98.02,7,32.6,60.1,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point C
+18816,13/7/2018 12:00:00 AM,468.55,11,31.3,69.7,2,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point C
+18816,14/3/2019 12:00:00 AM,306.48,2,35.5,47.9,0,?,-,Mitsui QC46,Transformer 1200KVA (S/N: A1HF2844T001),High Voltage side Point C
+18817,25/8/2017 12:00:00 AM,106.96,7,32.6,60.1,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point A
+18817,13/7/2018 12:00:00 AM,233.97,5,31.3,69.7,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point A
+18817,14/3/2019 12:00:00 AM,288.18,4,35.5,47.9,1,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point A
+18818,25/8/2017 12:00:00 AM,142.57,5,32.6,60.1,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point B
+18818,13/7/2018 12:00:00 AM,238.58,1,31.3,69.7,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point B
+18818,14/3/2019 12:00:00 AM,95.09,7,35.5,47.9,1,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point B
+18819,25/8/2017 12:00:00 AM,282.69,1,32.6,60.1,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point C
+18819,13/7/2018 12:00:00 AM,161.94,2,31.3,69.7,2,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point C
+18819,14/3/2019 12:00:00 AM,263.65,6,35.5,47.9,1,?,-,Mitsui QC46,Transformer 150KVA (S/N: A1HF2844T002),High Voltage side Point C
+18820,25/8/2017 12:00:00 AM,280.2,4,32,64.2,4,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18820,13/7/2018 12:00:00 AM,450.18,3,31.6,68.9,4,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18820,14/3/2019 12:00:00 AM,269.65,2,34.9,46.3,1,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18821,25/8/2017 12:00:00 AM,254.73,1,32,64.2,4,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18821,13/7/2018 12:00:00 AM,487.69,5,31.6,68.9,4,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18821,14/3/2019 12:00:00 AM,251.09,2,34.9,46.3,1,?,-,Mitsui QC47,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18822,25/8/2017 12:00:00 AM,231.73,2,32,64.2,4,?,-,Mitsui QC47,Panel 2 - Incoming Panel,Top
+18823,25/8/2017 12:00:00 AM,230.51,3,32,64.2,4,?,-,Mitsui QC47,Panel 2 - Incoming Panel,Bottom
+18824,25/8/2017 12:00:00 AM,271.4,2,32,64.2,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point A
+18824,13/7/2018 12:00:00 AM,423.56,3,31.6,68.9,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point A
+18824,14/3/2019 12:00:00 AM,235.13,1,34.9,46.3,0,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point A
+18825,25/8/2017 12:00:00 AM,315.65,3,32,64.2,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point B
+18825,13/7/2018 12:00:00 AM,445.85,3,31.6,68.9,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point B
+18825,14/3/2019 12:00:00 AM,205.41,5,34.9,46.3,0,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point B
+18826,25/8/2017 12:00:00 AM,482.82,1,32,64.2,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point C
+18826,13/7/2018 12:00:00 AM,543.4,2,31.6,68.9,2,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point C
+18826,14/3/2019 12:00:00 AM,432.71,2,34.9,46.3,0,?,-,Mitsui QC47,Transformer 1200KVA (S/N: A1HF2860T001),High Voltage side Point C
+18827,25/8/2017 12:00:00 AM,310.37,3,32,64.2,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point A
+18827,13/7/2018 12:00:00 AM,365.68,1,31.6,68.9,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point A
+18827,14/3/2019 12:00:00 AM,122.56,1,34.9,46.3,1,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point A
+18828,25/8/2017 12:00:00 AM,330.79,2,32,64.2,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point B
+18828,13/7/2018 12:00:00 AM,508.3,5,31.6,68.9,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point B
+18828,14/3/2019 12:00:00 AM,201.78,1,34.9,46.3,1,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point B
+18829,25/8/2017 12:00:00 AM,342.62,3,32,64.2,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point C
+18829,13/7/2018 12:00:00 AM,691.47,1,31.6,68.9,2,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point C
+18829,14/3/2019 12:00:00 AM,233.79,4,34.9,46.3,1,?,-,Mitsui QC47,Transformer 150KVA (S/N: A1HF2860T002),High Voltage side Point C
+18830,28/8/2017 12:00:00 AM,293.06,1,32.1,63.9,70,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18830,13/7/2018 12:00:00 AM,372.86,2,31.6,66,4,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18830,14/3/2019 12:00:00 AM,413.5,2,34.7,46.3,4,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18831,28/8/2017 12:00:00 AM,198.23,5,32.1,63.9,70,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18831,13/7/2018 12:00:00 AM,390.51,1,31.6,66,4,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18831,14/3/2019 12:00:00 AM,308.89,3,34.7,46.3,4,?,-,Mitsui QC48,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18832,28/8/2017 12:00:00 AM,698.52,5,32.1,63.9,70,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point A
+18832,13/7/2018 12:00:00 AM,353.64,8,31.6,66,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point A
+18832,14/3/2019 12:00:00 AM,275.11,3,34.7,46.3,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point A
+18833,28/8/2017 12:00:00 AM,373.03,3,32.1,63.9,70,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point B
+18833,13/7/2018 12:00:00 AM,333.91,5,31.6,66,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point B
+18833,14/3/2019 12:00:00 AM,390.39,3,34.7,46.3,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point B
+18836,28/8/2017 12:00:00 AM,381.02,2,32.1,63.9,3,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point A
+18836,13/7/2018 12:00:00 AM,334.66,2,31.6,66,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point A
+18836,14/3/2019 12:00:00 AM,105.49,7,34.7,46.3,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point A
+18837,28/8/2017 12:00:00 AM,409.27,3,32.1,63.9,3,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point B
+18837,13/7/2018 12:00:00 AM,414.28,3,31.6,66,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point B
+18837,14/3/2019 12:00:00 AM,194.49,1,34.7,46.3,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point B
+18838,28/8/2017 12:00:00 AM,622.03,1,32.1,63.9,3,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point C
+18838,13/7/2018 12:00:00 AM,325.85,4,31.6,66,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point C
+18838,14/3/2019 12:00:00 AM,161.56,2,34.7,46.3,2,?,-,Mitsui QC48,Transformer 150KVA (S/N: A1HB2581T002),High Voltage side Point C
+18839,28/8/2017 12:00:00 AM,380.42,6,31.8,63.9,84,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18839,13/7/2018 12:00:00 AM,516.15,4,31.1,71.8,4,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18839,14/3/2019 12:00:00 AM,389.19,3,33.6,51.6,1,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18840,28/8/2017 12:00:00 AM,709.13,1,31.8,63.9,84,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18840,13/7/2018 12:00:00 AM,919.42,1,31.1,71.8,4,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18840,14/3/2019 12:00:00 AM,235.67,1,33.6,51.6,1,?,-,Mitsui QC49,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18841,28/8/2017 12:00:00 AM,722.15,7,31.8,63.9,84,?,-,Mitsui QC49,Panel 2 - Incoming Panel,Top
+18842,28/8/2017 12:00:00 AM,489.08,4,31.8,63.9,84,?,-,Mitsui QC49,Panel 2 - Incoming Panel,Bottom
+18843,28/8/2017 12:00:00 AM,637.75,3,31.8,63.9,84,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point A
+18843,13/7/2018 12:00:00 AM,352.36,9,31.1,71.8,2,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point A
+18843,14/3/2019 12:00:00 AM,194.67,1,33.6,51.6,0,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point A
+18844,28/8/2017 12:00:00 AM,772.64,10,31.8,63.9,84,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point B
+18844,13/7/2018 12:00:00 AM,343.47,8,31.1,71.8,2,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point B
+18844,14/3/2019 12:00:00 AM,215.91,2,33.6,51.6,0,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point B
+18845,28/8/2017 12:00:00 AM,652.92,6,31.8,63.9,84,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point C
+18845,13/7/2018 12:00:00 AM,369.08,3,31.1,71.8,2,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point C
+18845,14/3/2019 12:00:00 AM,215.91,2,33.6,51.6,0,?,-,Mitsui QC49,Transformer 1200KVA (S/N: A1HB2581T011),High Voltage side Point C
+18846,28/8/2017 12:00:00 AM,413.27,7,31.8,63.9,3,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point A
+18846,13/7/2018 12:00:00 AM,516.77,8,31.1,71.8,2,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point A
+18846,14/3/2019 12:00:00 AM,193.25,4,33.6,51.6,1,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point A
+18848,28/8/2017 12:00:00 AM,1332.59,4,31.8,63.9,3,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point B
+18848,13/7/2018 12:00:00 AM,399.12,6,31.1,71.8,2,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point B
+18848,14/3/2019 12:00:00 AM,186.22,3,33.6,51.6,1,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point B
+18849,28/8/2017 12:00:00 AM,541.24,7,31.8,63.9,3,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point C
+18849,13/7/2018 12:00:00 AM,320.39,4,31.1,71.8,2,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point C
+18849,14/3/2019 12:00:00 AM,300.7,1,33.6,51.6,1,?,-,Mitsui QC49,Transformer 150KVA (S/N: A1HB2581T022),High Voltage side Point C
+18850,28/8/2017 12:00:00 AM,326.17,2,32.3,62.8,55,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18850,13/7/2018 12:00:00 AM,240.47,7,31.1,74.1,4,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18850,14/3/2019 12:00:00 AM,301.02,1,30.1,65,2,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18851,28/8/2017 12:00:00 AM,701.46,6,32.3,62.8,55,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18851,13/7/2018 12:00:00 AM,446.5,5,31.1,74.1,4,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18851,14/3/2019 12:00:00 AM,269.5,2,30.1,65,2,?,-,Mitsui QC50,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18852,28/8/2017 12:00:00 AM,97.5,4,32.3,62.8,55,?,-,Mitsui QC50,Panel 2 - Incoming Panel,Top
+18853,28/8/2017 12:00:00 AM,120.17,14,32.3,62.8,55,?,-,Mitsui QC50,Panel 2 - Incoming Panel,Bottom
+18854,28/8/2017 12:00:00 AM,337.17,7,32.3,62.8,55,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point A
+18854,13/7/2018 12:00:00 AM,581.54,1,31.1,74.1,2,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point A
+18854,14/3/2019 12:00:00 AM,128.8,1,30.1,65,0,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point A
+18855,28/8/2017 12:00:00 AM,390.38,10,32.3,62.8,55,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point B
+18855,13/7/2018 12:00:00 AM,315.57,7,31.1,74.1,2,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point B
+18855,14/3/2019 12:00:00 AM,196.09,2,30.1,65,0,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point B
+18856,28/8/2017 12:00:00 AM,583.39,9,32.3,62.8,55,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point C
+18856,13/7/2018 12:00:00 AM,341.92,5,31.1,74.1,2,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point C
+18856,14/3/2019 12:00:00 AM,301.6,1,30.1,65,0,?,-,Mitsui QC50,Transformer 1200KVA (S/N: A1JC1986T001),High Voltage side Point C
+18857,28/8/2017 12:00:00 AM,380.92,2,32.3,62.8,3,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point A
+18857,13/7/2018 12:00:00 AM,546.58,2,31.1,74.1,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point A
+18857,14/3/2019 12:00:00 AM,125.81,1,30.1,65,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point A
+18859,28/8/2017 12:00:00 AM,637.46,5,32.3,62.8,3,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point B
+18859,13/7/2018 12:00:00 AM,420.89,3,31.1,74.1,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point B
+18859,14/3/2019 12:00:00 AM,122.63,1,30.1,65,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point B
+18860,28/8/2017 12:00:00 AM,184.58,1,32.3,62.8,3,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point C
+18860,13/7/2018 12:00:00 AM,408.51,4,31.1,74.1,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point C
+18860,14/3/2019 12:00:00 AM,95.36,9,30.1,65,2,?,-,Mitsui QC50,Transformer 150KVA (S/N: A1JC1986T002),High Voltage side Point C
+18861,28/8/2017 12:00:00 AM,190.03,3,33.9,55.5,72,?,-,Mitsui QC51,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18862,28/8/2017 12:00:00 AM,495.83,5,33.9,55.5,72,?,-,Mitsui QC51,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18863,28/8/2017 12:00:00 AM,423.95,10,33.9,55.5,72,?,-,Mitsui QC51,Transformer 1200KVA (S/N: A1HL8198T001),High Voltage side Point A
+18864,28/8/2017 12:00:00 AM,776.46,7,33.9,55.5,72,?,-,Mitsui QC51,Transformer 1200KVA (S/N: A1HL8198T001),High Voltage side Point B
+18865,28/8/2017 12:00:00 AM,543.66,6,33.9,55.5,72,?,-,Mitsui QC51,Transformer 1200KVA (S/N: A1HL8198T001),High Voltage side Point C
+18866,28/8/2017 12:00:00 AM,448.95,8,33.9,55.5,3,?,-,Mitsui QC51,Transformer 150KVA (S/N: A1HL8184T002),High Voltage side Point A
+18867,28/8/2017 12:00:00 AM,923.29,9,33.9,55.5,3,?,-,Mitsui QC51,Transformer 150KVA (S/N: A1HL8184T002),High Voltage side Point B
+18868,28/8/2017 12:00:00 AM,671.17,6,33.9,55.5,3,?,-,Mitsui QC51,Transformer 150KVA (S/N: A1HL8184T002),High Voltage side Point C
+18869,28/8/2017 12:00:00 AM,371.23,1,34.1,56.4,85,?,-,Mitsui QC52,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18870,28/8/2017 12:00:00 AM,1574.68,10,34.1,56.4,85,?,-,Mitsui QC52,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18871,28/8/2017 12:00:00 AM,325.35,2,34.1,56.4,85,?,-,Mitsui QC52,Panel 2 - Incoming Panel,Top
+18872,28/8/2017 12:00:00 AM,306.26,3,34.1,56.4,85,?,-,Mitsui QC52,Panel 2 - Incoming Panel,Bottom
+18873,28/8/2017 12:00:00 AM,427.04,7,34.1,56.4,85,?,-,Mitsui QC52,Transformer 1200KVA (S/N: A1HL8184T001),High Voltage side Point A
+18874,28/8/2017 12:00:00 AM,888.28,9,34.1,56.4,85,?,-,Mitsui QC52,Transformer 1200KVA (S/N: A1HL8184T001),High Voltage side Point B
+18875,28/8/2017 12:00:00 AM,862.65,7,34.1,56.4,85,?,-,Mitsui QC52,Transformer 1200KVA (S/N: A1HL8184T001),High Voltage side Point C
+18876,28/8/2017 12:00:00 AM,1218.69,7,34.1,56.4,4,?,-,Mitsui QC52,Transformer 150KVA (S/N: A1HL8198T002),High Voltage side Point A
+18878,28/8/2017 12:00:00 AM,890.02,3,34.1,56.4,4,?,-,Mitsui QC52,Transformer 150KVA (S/N: A1HL8198T002),High Voltage side Point B
+18879,28/8/2017 12:00:00 AM,712.06,1,34.1,56.4,4,?,-,Mitsui QC52,Transformer 150KVA (S/N: A1HL8198T002),High Voltage side Point C
+18880,28/8/2017 12:00:00 AM,290.56,5,34.3,53.1,80,?,-,Mitsui QC53,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top
+18881,28/8/2017 12:00:00 AM,560.65,6,34.3,53.1,80,?,-,Mitsui QC53,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18882,28/8/2017 12:00:00 AM,1599.13,5,34.3,53.1,80,?,-,Mitsui QC53,Panel 2 - Incoming Panel,Top
+18883,28/8/2017 12:00:00 AM,489.5,2,34.3,53.1,80,?,-,Mitsui QC53,Panel 2 - Incoming Panel,Bottom
+18884,28/8/2017 12:00:00 AM,1033.07,4,34.3,53.1,80,?,-,Mitsui QC53,Transformer 1200KVA (S/N: A1JC1989T001),High Voltage side Point A
+18885,28/8/2017 12:00:00 AM,757.63,9,34.3,53.1,80,?,-,Mitsui QC53,Transformer 1200KVA (S/N: A1JC1989T001),High Voltage side Point B
+18886,28/8/2017 12:00:00 AM,749.85,6,34.3,53.1,80,?,-,Mitsui QC53,Transformer 1200KVA (S/N: A1JC1989T001),High Voltage side Point C
+18887,28/8/2017 12:00:00 AM,1264.78,12,34.3,53.1,3,?,-,Mitsui QC53,Transformer 150KVA (S/N: A1JC1989T002),High Voltage side Point A
+18888,28/8/2017 12:00:00 AM,870.19,8,34.3,53.1,3,?,-,Mitsui QC53,Transformer 150KVA (S/N: A1JC1989T002),High Voltage side Point B
+18889,28/8/2017 12:00:00 AM,385.88,4,34.3,53.1,3,?,-,Mitsui QC53,Transformer 150KVA (S/N: A1JC1989T002),High Voltage side Point C
+18890,25/8/2017 12:00:00 AM,217.29,4,30.2,72.4,4,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Top
+18890,11/7/2018 12:00:00 AM,1740.36,23,34.1,55.1,63,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Top
+18890,14/3/2019 12:00:00 AM,702.57,4,35.5,56.3,32,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Top
+18891,25/8/2017 12:00:00 AM,122.57,7,30.2,72.4,4,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18891,11/7/2018 12:00:00 AM,814.74,10,34.1,55.1,63,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18891,14/3/2019 12:00:00 AM,956.48,7,35.5,56.3,32,?,-,Mitsui QC10,Panel 1 - 750KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18892,25/8/2017 12:00:00 AM,337.29,2,30.2,72.4,4,?,-,Mitsui QC10,Panel 2 - Incoming Panel,Top
+18893,25/8/2017 12:00:00 AM,394.3,3,30.2,72.4,4,?,-,Mitsui QC10,Panel 2 - Incoming Panel,Bottom
+18894,25/8/2017 12:00:00 AM,316.46,4,30.2,72.4,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point A
+18894,11/7/2018 12:00:00 AM,1684.36,6,34.1,55.1,3,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point A
+18894,14/3/2019 12:00:00 AM,1431.82,14,35.5,56.3,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point A
+18895,25/8/2017 12:00:00 AM,184.41,2,30.2,72.4,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point B
+18895,11/7/2018 12:00:00 AM,1453.11,32,34.1,55.1,3,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point B
+18895,14/3/2019 12:00:00 AM,1452.93,10,35.5,56.3,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point B
+18896,25/8/2017 12:00:00 AM,132.78,7,30.2,72.4,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point C
+18896,11/7/2018 12:00:00 AM,1509.02,10,34.1,55.1,3,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point C
+18896,14/3/2019 12:00:00 AM,725.95,2,35.5,56.3,2,?,-,Mitsui QC10,Transformer 150KVA (S/N: A1M23346T601-1),High Voltage side Point C
+18897,25/8/2017 12:00:00 AM,343.68,1,30.2,72.4,2,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point A
+18897,11/7/2018 12:00:00 AM,1323.93,8,34.1,55.1,60,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point A
+18897,14/3/2019 12:00:00 AM,818.84,11,35.5,56.3,30,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point A
+18898,25/8/2017 12:00:00 AM,345.25,1,30.2,72.4,2,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point B
+18898,11/7/2018 12:00:00 AM,1632.87,33,34.1,55.1,60,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point B
+18898,14/3/2019 12:00:00 AM,1082.57,6,35.5,56.3,30,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point B
+18899,25/8/2017 12:00:00 AM,307.06,2,30.2,72.4,2,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point C
+18899,11/7/2018 12:00:00 AM,1740.12,33,34.1,55.1,60,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point C
+18899,14/3/2019 12:00:00 AM,1114.34,9,35.5,56.3,30,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point C
+18901,24/8/2017 12:00:00 AM,373.85,1,31.4,63.3,4,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18901,12/7/2018 12:00:00 AM,457.23,7,35.5,64,23,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18901,14/3/2019 12:00:00 AM,432.99,4,33.8,52.5,1,?,-,Mitsui QC43,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom
+18902,28/8/2017 12:00:00 AM,299.24,4,32.1,63.9,70,?,-,Mitsui QC48,Panel 2 - Incoming Panel,Top
+18903,28/8/2017 12:00:00 AM,250.71,1,32.1,63.9,70,?,-,Mitsui QC48,Panel 2 - Incoming Panel,Bottom
+18906,28/8/2017 12:00:00 AM,250.66,1,32.1,63.9,70,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point C
+18906,13/7/2018 12:00:00 AM,374.23,3,31.6,66,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point C
+18906,14/3/2019 12:00:00 AM,339.89,4,34.7,46.3,2,?,-,Mitsui QC48,Transformer 1200KVA (S/N: A1HB2581T001),High Voltage side Point C
+18907,28/8/2017 12:00:00 AM,752.42,5,33.9,55.5,72,?,-,Mitsui QC51,Panel 2 - Incoming Panel,Top
+18908,28/8/2017 12:00:00 AM,529.26,11,33.9,55.5,72,?,-,Mitsui QC51,Panel 2 - Incoming Panel,Bottom
+18912,24/8/2017 12:00:00 AM,838.05,6,31.4,63.4,60,?,-,Mitsui QC38,Panel 2 - Incoming Panel,Bottom

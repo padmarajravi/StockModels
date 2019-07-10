@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ebd2d3b-8cc0-44d7-921e-2735c66ac2ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/models/anomaly/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_pyod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_timeseries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/anomaly/data/PD data -2017-2019.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/ga/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/rnn/models/keras/model" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/rnn/models/keras/model" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +26,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN">
+        <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_pyod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="435">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
-                <element signature="e#4#14#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +72,6 @@
         <option value="$PROJECT_DIR$/src/main/models/rnn/phone_review.txt" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/__init__.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/flavour_source.txt" />
-        <option value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
         <option value="$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/TextGenRNN.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNNTestUtil.py" />
@@ -74,6 +82,11 @@
         <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
         <option value="$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN" />
+        <option value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
+        <option value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection" />
+        <option value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection.py" />
+        <option value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_timeseries.py" />
+        <option value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_pyod.py" />
       </list>
     </option>
   </component>
@@ -89,13 +102,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockModels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockModels" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="anomaly" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557377802286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562761381049" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -106,6 +155,7 @@
       <recent name="$PROJECT_DIR$/src/main/models/rnn/data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/models/anomaly/data" />
       <recent name="$PROJECT_DIR$/src/main/models/rnn" />
     </key>
   </component>
@@ -121,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MultiInputFeatureStockRNN">
-    <configuration name="MultiInputFeatureStockRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.anomaly_detection_timeseries">
+    <configuration name="TestDeapGA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/ga" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RNNSampleCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="anomaly_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +201,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/anomaly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/RNNSampleCode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StockRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="anomaly_detection_pyod" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +222,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/anomaly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/StockRNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_pyod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StockRNNKerasTf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="anomaly_detection_timeseries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,11 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/anomaly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/StockRNNKerasTf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_timeseries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,34 +256,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StockRNNTestUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Doctests in TestDeapGA" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="DeapLearningModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/models/ga" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/rnn/StockRNNTestUtil.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MultiInputFeatureStockRNN" />
-        <item itemvalue="Python.StockRNNKerasTf" />
-        <item itemvalue="Python.StockRNN" />
-        <item itemvalue="Python.RNNSampleCode" />
-        <item itemvalue="Python.StockRNNTestUtil" />
+        <item itemvalue="Python.anomaly_detection_timeseries" />
+        <item itemvalue="Python.anomaly_detection_pyod" />
+        <item itemvalue="Python.anomaly_detection" />
+        <item itemvalue="Python.TestDeapGA" />
+        <item itemvalue="Python tests.Doctests in TestDeapGA" />
       </list>
     </recent_temporary>
   </component>
@@ -251,35 +298,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 14h 26m 43s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.24 at 10h 38m 24s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 14h 26m 50s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.24 at 16h 19m 04s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 14h 30m 39s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.24 at 16h 32m 06s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 14h 30m 43s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.24 at 16h 47m 22s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 15h 37m 27s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 13h 50m 24s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 15h 37m 33s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 13h 52m 47s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 15h 42m 50s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 13h 57m 04s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 15h 42m 58s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 13h 57m 12s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 16h 01m 04s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 13h 59m 11s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_DEAPScheduling - 2019.04.10 at 16h 04m 45s.xml">
-      <configuration name="Doctests in DEAPScheduling" configurationId="tests" />
+    <history-entry file="Doctests_in_TestDeapGA - 2019.06.25 at 15h 06m 26s.xml">
+      <configuration name="Doctests in TestDeapGA" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -294,7 +341,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27134877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3048683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,11 +351,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3306189" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -366,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/deap/algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/deap/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -388,35 +428,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/rnn/data.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1159">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/data/BSE-BOM500520.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/training/saver.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,12 +579,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/rnn/data/BSE-BOM500520.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/deap/algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/ga/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/ga/DEAPScheduling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="57" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/ga/TestDeapGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/rnn/MultiInputFeatureStockRNN">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-180">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="e#4#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/data/PD data -2017-2019.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="49" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sklearn/ensemble/iforest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="2656" selection-start-line="2656" selection-end-line="2656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/result_anomalies_pd" />
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/result.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/result_anomalies_pd.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/anomaly/anomaly_detection_pyod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

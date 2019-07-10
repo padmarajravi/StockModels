@@ -88,15 +88,14 @@ def preparePredictorList(priceList):
             currentHigh            = price[1]
             currentLow             = price[2]
             currentClose           = price[3]
-            currentDayHighLowDiff  = (currentHigh - currentLow)*100/currentLow
+            currentDayOpenLowDiff  = (currentOpen - currentLow) *100/ currentLow
+            currentDayCloseHighDiff = (currentHigh - currentClose) * 100 / currentClose
             currentOpenCloseDiff   = (currentClose - currentOpen) * 100 / currentOpen
             inputOutputList.append(predictorDayClosePrice)
             previousDayPriceList.append(previousClosePrice)
-            priceChange   = (currentClose - previousClosePrice) * 100 / previousClosePrice
+            priceChange   = (currentClose - previousClosePrice)
             predictorPriceChange = (predictorDayClosePrice- currentClose ) * 100 / currentClose
-            predictorList.append((getInputVariable(priceChange),getInputVariable(currentDayHighLowDiff),getInputVariable(currentOpenCloseDiff),getOutputVariable(predictorPriceChange)))
-        else:
-            predictorList.append((neutral,neutral,neutral,HOLD))
+            predictorList.append((getInputVariable(priceChange),getInputVariable(currentDayOpenLowDiff),getInputVariable(currentDayCloseHighDiff),getInputVariable(currentOpenCloseDiff),getOutputVariable(predictorPriceChange)))
         count += 1
 
     print("priceList length:"+str(len(priceList)))
@@ -110,15 +109,15 @@ Returns a discreet valuea according to the input percentage change.
 
 def getInputVariable(priceChange):
     result = 0
-    if priceChange > 1.0:
+    if priceChange > 0.5:
         result = positiveHigh
-    elif priceChange > .5:
+    elif priceChange > 0.1:
         result = positiveMed
     elif priceChange > 0.0:
         result  = neutral
-    elif priceChange < -1.0:
+    elif priceChange < -0.1:
         result  = negativeHigh
-    elif priceChange < -0.5:
+    elif priceChange < -0.5 :
         result = negativeMed
     return result
 
@@ -131,7 +130,7 @@ Return the output discreet variable according the change in price during predict
 def getOutputVariable(priceChange):
     if priceChange < -1.0:
         result = SELL
-    elif priceChange > 1.0 :
+    elif priceChange > 1.0:
         result = BUY
     else :
         result = HOLD
@@ -156,11 +155,11 @@ def prepareData():
             totalY.append(getOneHot(inputOutputList[i + nInput][noOfInputFeatures]))
     totalX = np.array(totalX)
     # Normalizing X values
-    forScaling = np.reshape(totalX,(-1,totalX.shape[2]))
-    minMaxScaler = preprocessing.MinMaxScaler()
-    scaledX = minMaxScaler.fit_transform(forScaling)
-    totalX = np.reshape(scaledX,(totalX.shape[0],totalX.shape[1],totalX.shape[2]))
-
+    #forScaling = np.reshape(totalX,(-1,totalX.shape[2]))
+    #minMaxScaler = preprocessing.MinMaxScaler()
+    #scaledX = minMaxScaler.fit_transform(forScaling)
+    #totalX = np.reshape(scaledX,(totalX.shape[0],totalX.shape[1],totalX.shape[2]))
+    print("totalX:"+str(totalX))
     totalY = np.array(totalY)
     print("Number of output labels"+str(np.sum(totalY,axis=0)))
     print("total data set length:"+str(len(totalX)))
@@ -222,7 +221,7 @@ def trainNetworkLSTM(trainX, trainY):
     model.add(dense)
     model.compile(loss='categorical_crossentropy', optimizer='adam')
     print(model.summary())
-    for i in range(1,10):
+    for i in range(1,100):
         model.fit(trainX, trainY, epochs=1, batch_size=batchSize, verbose=2,shuffle=False)
         model.reset_states()
         print("Completed iteration:"+str(i))
@@ -261,6 +260,11 @@ def testNetworkLSTM(testX,testY):
     print(originalY)
     results = getClassPrecisionAndRecall(zip(predictedY,originalY))
     displayResults(results)
+
+
+def getCandlePattern(open,high,low,close):
+
+    mean = (open + high + low + close )/4
 
 
 
