@@ -1,41 +1,38 @@
 ,Equipment ID,Inspection Date,PD Average,PD Count,Temperature,Humidity,Loading,Confirm action,Building,Room,Equipment Name,Measurement Position,date
-1010,18739,24/8/2017 12:00:00 AM,2867.7,7,31.4,63.4,3.0,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point C,2017-08-24
-985,18730,24/8/2017 12:00:00 AM,1986.31,7,32.1,60.0,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C,2017-08-24
-62,115344,9/7/2018 12:00:00 AM,279.9,3,32.7,61.9,300.0,1,IMPSA 9,-,Transformer 1,High Voltage side Point A,2018-07-09
-60,115343,9/7/2018 12:00:00 AM,2383.62,22,32.5,62.2,600.0,2,IMPSA 8,-,Transformer 1,High Voltage side Point A,2018-07-09
-58,115342,9/7/2018 12:00:00 AM,543.83,11,31.7,65.2,800.0,1,IMPSA 7,-,Transformer 1,High Voltage side Point A,2018-07-09
-405,18505,10/7/2018 12:00:00 AM,1804.57,28,31.4,61.4,30.0,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point C,2018-07-10
-996,18734,12/7/2018 12:00:00 AM,3079.26,5,31.1,64.5,2.0,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point A,2018-07-12
-986,18730,12/7/2018 12:00:00 AM,2798.27,8,32.8,59.2,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C,2018-07-12
-61,115343,11/3/2019 12:00:00 AM,1323.17,6,33.4,57.3,1100.0,1,IMPSA 8,-,Transformer 1,High Voltage side Point A,2019-03-11
-53,115339,11/3/2019 12:00:00 AM,559.74,5,50.4,34.9,900.0,1,IMPSA 3,-,Transformer 1,High Voltage side Point A,2019-03-11
-49,115337,11/3/2019 12:00:00 AM,121.6,2,32.5,59.8,1100.0,1,IMPSA 1,-,Transformer 1,High Voltage side Point A,2019-03-11
-27,115314,11/3/2019 12:00:00 AM,2237.04,7,50.4,34.9,10.0,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Bottom,2019-03-11
-51,115338,12/3/2019 12:00:00 AM,540.16,2,29.8,69.4,900.0,1,IMPSA 2,-,Transformer 1,High Voltage side Point A,2019-03-12
-59,115342,12/3/2019 12:00:00 AM,423.7,5,32.9,58.4,800.0,1,IMPSA 7,-,Transformer 1,High Voltage side Point A,2019-03-12
 256,18448,22/8/2017 12:00:00 AM,359.26,6,31.7,61.7,25.0,?,Wharf 1 to 7,ZPMC QC6,Panel 3 - HA3.2 Aux Transformer Feeder,Bottom,2017-08-22
-1298,18853,28/8/2017 12:00:00 AM,120.17,14,32.3,62.8,55.0,?,-,Mitsui QC50,Panel 2 - Incoming Panel,Bottom,2017-08-28
-652,18600,12/3/2019 12:00:00 AM,121.9,3,38.5,42.4,23.0,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Top,2019-03-12
-655,18601,12/3/2019 12:00:00 AM,110.66,7,38.5,42.4,23.0,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom,2019-03-12
-663,18605,12/3/2019 12:00:00 AM,269.28,2,38.5,42.4,20.0,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point B,2019-03-12
-666,18606,12/3/2019 12:00:00 AM,289.09,4,38.5,42.4,20.0,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point C,2019-03-12
-1004,18737,24/8/2017 12:00:00 AM,2525.91,11,31.4,63.4,3.0,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point A,2017-08-24
-982,18729,24/8/2017 12:00:00 AM,2342.25,5,32.1,60.0,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point B,2017-08-24
-980,18728,12/7/2018 12:00:00 AM,2537.0,12,32.8,59.2,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point A,2018-07-12
-45,115334,11/3/2019 12:00:00 AM,2364.16,7,33.4,57.3,18.0,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Top,2019-03-11
-811,18662,12/3/2019 12:00:00 AM,2501.41,10,36.5,51.7,4.0,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom,2019-03-12
-808,18661,12/3/2019 12:00:00 AM,2607.56,6,36.5,51.7,4.0,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top,2019-03-12
-938,18711,13/3/2019 12:00:00 AM,2428.14,5,34.7,60.0,43.0,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top,2019-03-13
-941,18712,13/3/2019 12:00:00 AM,2338.15,4,34.7,60.0,43.0,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom,2019-03-13
-1003,18736,13/3/2019 12:00:00 AM,2600.03,9,38.4,48.0,2.0,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point C,2019-03-13
-926,18707,13/3/2019 12:00:00 AM,2456.58,11,34.3,57.6,40.0,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point C,2019-03-13
-213,18430,21/8/2017 12:00:00 AM,1577.86,56,32.8,59.8,2.0,?,Wharf 1 to 7,ZPMC QC4,Transformer 2 (Main) (S/N: T10389) (11kV/415V),High Voltage side Point C,2017-08-21
-959,18720,24/8/2017 12:00:00 AM,2205.33,35,33.2,60.5,3.0,?,-,Mitsui QC36,Transformer 150KVA (S/N: A1EH2664T002-2),High Voltage side Point C,2017-08-24
+0,115298,10/7/2018 12:00:00 AM,1491.03,21,28.5,81.4,2.1,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top,2018-07-10
 2,115299,10/7/2018 12:00:00 AM,1410.18,22,28.5,81.4,2.1,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Bottom,2018-07-10
+1003,18736,13/3/2019 12:00:00 AM,2600.03,9,38.4,48.0,2.0,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point C,2019-03-13
+4,115300,10/7/2018 12:00:00 AM,1605.48,13,28.5,81.4,1.4,1,Unloader 1,-,Panel 3 - Outgoing to 1250A LV Air Circuit Panel,Top,2018-07-10
 71,18371,10/7/2018 12:00:00 AM,2249.12,12,28.5,81.4,-4.0,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 1 (S/N: 0194495) (11kV/415V),High Voltage side Point A,2018-07-10
 74,18372,10/7/2018 12:00:00 AM,1828.48,1,28.5,81.4,-4.0,?,Wharf 1 to 7,IMPSA Unloader 1,Transformer 2 (S/N: CT94497) (11kV/415V),High Voltage side Point A,2018-07-10
-147,18405,10/7/2018 12:00:00 AM,1896.69,28,30.3,71.3,2.0,?,Wharf 1 to 7,ZPMC QC2,Transformer 2 (Main) (S/N: 110386) (11kV/415V),High Voltage side Point B,2018-07-10
-0,115298,10/7/2018 12:00:00 AM,1491.03,21,28.5,81.4,2.1,1,Unloader 1,-,Panel 2 - Outgoing to 2000A LV Air Circuit Breaker,Top,2018-07-10
+652,18600,12/3/2019 12:00:00 AM,121.9,3,38.5,42.4,23.0,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Top,2019-03-12
+655,18601,12/3/2019 12:00:00 AM,110.66,7,38.5,42.4,23.0,?,-,Mitsui QC24,Panel 1 - 1200KVA/150KVA Transformer Panel,Bottom,2019-03-12
+1298,18853,28/8/2017 12:00:00 AM,120.17,14,32.3,62.8,55.0,?,-,Mitsui QC50,Panel 2 - Incoming Panel,Bottom,2017-08-28
+980,18728,12/7/2018 12:00:00 AM,2537.0,12,32.8,59.2,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point A,2018-07-12
+405,18505,10/7/2018 12:00:00 AM,1804.57,28,31.4,61.4,30.0,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point C,2018-07-10
+982,18729,24/8/2017 12:00:00 AM,2342.25,5,32.1,60.0,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point B,2017-08-24
+663,18605,12/3/2019 12:00:00 AM,269.28,2,38.5,42.4,20.0,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point B,2019-03-12
+985,18730,24/8/2017 12:00:00 AM,1986.31,7,32.1,60.0,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C,2017-08-24
+666,18606,12/3/2019 12:00:00 AM,289.09,4,38.5,42.4,20.0,?,-,Mitsui QC24,Transformer 1200KVA (S/N: A1T68894T601-2) (11kV/440V),High Voltage side Point C,2019-03-12
+27,115314,11/3/2019 12:00:00 AM,2237.04,7,50.4,34.9,10.0,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Bottom,2019-03-11
+986,18730,12/7/2018 12:00:00 AM,2798.27,8,32.8,59.2,3.0,?,-,Mitsui QC37,Transformer 150KVA (S/N: A1EH2664T002-1),High Voltage side Point C,2018-07-12
+926,18707,13/3/2019 12:00:00 AM,2456.58,11,34.3,57.6,40.0,?,-,Mitsui QC35,Transformer 1200KVA (S/N: A1EH2661T001-1),High Voltage side Point C,2019-03-13
+996,18734,12/7/2018 12:00:00 AM,3079.26,5,31.1,64.5,2.0,?,-,Mitsui QC38,Transformer 1200KVA (S/N: A1EH2661T001-2),High Voltage side Point A,2018-07-12
+808,18661,12/3/2019 12:00:00 AM,2607.56,6,36.5,51.7,4.0,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top,2019-03-12
+941,18712,13/3/2019 12:00:00 AM,2338.15,4,34.7,60.0,43.0,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom,2019-03-13
+938,18711,13/3/2019 12:00:00 AM,2428.14,5,34.7,60.0,43.0,?,-,Mitsui QC36,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Top,2019-03-13
+811,18662,12/3/2019 12:00:00 AM,2501.41,10,36.5,51.7,4.0,?,-,Mitsui QC31,Panel 1 - 1200KVA Transformer Panel/150KVA Transformer Panel,Bottom,2019-03-12
+1004,18737,24/8/2017 12:00:00 AM,2525.91,11,31.4,63.4,3.0,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point A,2017-08-24
+45,115334,11/3/2019 12:00:00 AM,2364.16,7,33.4,57.3,18.0,1,IMPSA 8,-,Panel 1 - Incoming Cubicle,Top,2019-03-11
 402,18504,10/7/2018 12:00:00 AM,2319.38,36,31.4,61.4,30.0,?,-,Mitsui QC14,Transformer 830KVA (S/N: A1M23346T602-2) (11kV/440V),High Voltage side Point B,2018-07-10
-1369,18899,11/7/2018 12:00:00 AM,1740.12,33,34.1,55.1,60.0,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point C,2018-07-11
-1366,18898,11/7/2018 12:00:00 AM,1632.87,33,34.1,55.1,60.0,?,-,Mitsui QC10,Transformer 750KVA (S/N: A1M23346T602-1),High Voltage side Point B,2018-07-11
+49,115337,11/3/2019 12:00:00 AM,121.6,2,32.5,59.8,1100.0,1,IMPSA 1,-,Transformer 1,High Voltage side Point A,2019-03-11
+1010,18739,24/8/2017 12:00:00 AM,2867.7,7,31.4,63.4,3.0,?,-,Mitsui QC38,Transformer 150KVA (S/N: A1EH2661T002-2),High Voltage side Point C,2017-08-24
+51,115338,12/3/2019 12:00:00 AM,540.16,2,29.8,69.4,900.0,1,IMPSA 2,-,Transformer 1,High Voltage side Point A,2019-03-12
+25,115313,11/3/2019 12:00:00 AM,1314.21,5,50.4,34.9,10.0,1,IMPSA 3,-,Panel 1 - G1 Incoming Cubicle,Top,2019-03-11
+53,115339,11/3/2019 12:00:00 AM,559.74,5,50.4,34.9,900.0,1,IMPSA 3,-,Transformer 1,High Voltage side Point A,2019-03-11
+58,115342,9/7/2018 12:00:00 AM,543.83,11,31.7,65.2,800.0,1,IMPSA 7,-,Transformer 1,High Voltage side Point A,2018-07-09
+59,115342,12/3/2019 12:00:00 AM,423.7,5,32.9,58.4,800.0,1,IMPSA 7,-,Transformer 1,High Voltage side Point A,2019-03-12
+60,115343,9/7/2018 12:00:00 AM,2383.62,22,32.5,62.2,600.0,2,IMPSA 8,-,Transformer 1,High Voltage side Point A,2018-07-09
+61,115343,11/3/2019 12:00:00 AM,1323.17,6,33.4,57.3,1100.0,1,IMPSA 8,-,Transformer 1,High Voltage side Point A,2019-03-11
+62,115344,9/7/2018 12:00:00 AM,279.9,3,32.7,61.9,300.0,1,IMPSA 9,-,Transformer 1,High Voltage side Point A,2018-07-09
